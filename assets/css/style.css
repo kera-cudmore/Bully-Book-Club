@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 
 body {
-    background-color: #c7dffe;
+    background-color: #DAF7FB;
 }
 
 h1 {
-    font-size: 150px;
+    font-size: 4.5rem;
     padding: 20px 0px 40px 0px;
 }
 
@@ -20,13 +20,12 @@ p {
 
 /*-------------------------------------------------------------------------------- navbar */
 
-.bg-peach {
-    background-color: #ffbcba;
+.bg-nav {
+    background-color: #E9DBFA;
 }
 
 .navbar-brand {
     font-family: 'Chewy', sans-serif;
-    font-size: 25px;
 }
 
 .nav-link {
@@ -36,6 +35,5 @@ p {
 /*-------------------------------------------------------------------------------- footer  */
 
 footer i {
-    font-size: 25px;
     color: #000;
 }

@@ -89,7 +89,7 @@ Due to a recent growth in membership and personal commitments, the owner of bull
 
 Google Fonts was used for the following fonts:
 
-Patua One is used for headings on the site. It is a slab serif font.
+Chewy is used for headings on the site.
 
 Raleway is used for the body text on the site. It is a sans-serif font.  
 

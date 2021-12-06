@@ -2,68 +2,75 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Bully Book Club | Contact Us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Bully Book Club | Contact Us</title>
 </head>
 
 <body>
-    <header>
-        <nav></nav>
-    </header>
-<h1>Contact Us</h1>
-<p>Some information regarding contacting us to go here</p>
+  <header>
+    <nav></nav>
+  </header>
+  <section class="container">
+
+    <h1>Contact Us</h1>
+    
+    <p>Some information regarding contacting us to go here</p>
+    
     <form>
-        <div class="form-group">
-          <label for="Name">Name</label>
-          <input type="text" class="form-control" id="Name">
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name">
+      </div>
+
+      <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+
+      <div class="form-group">
+        <label class="sr-only" for="IGUsername">Instagram Username</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+          </div>
+          <input type="text" class="form-control" id="IGUsername" placeholder="Instagram Username">
         </div>
+      </div>
 
-        <div class="form-group">
-          <label for="Email">Email</label>
-          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      <div class="form-group row justify-content-sm-center justify-content-md-around">
+        <div class="form-check col-sm-12 col-md-2">
+          <input class="form-check-input" type="checkbox" id="JoinUs" value="JoinUs">
+          <label class="form-check-label" for="JoinUs">Join Us</label>
         </div>
-
-        <div class="form-group">
-            <label class="sr-only" for="IGUsername">Instagram Username</label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <div class="input-group-text">@</div>
-              </div>
-              <input type="text" class="form-control" id="IGUsername" placeholder="Instagram Username">
-            </div>
-          </div>
-
-        <div class="form-group">
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="JoinUs" value="JoinUs">
-            <label class="form-check-label" for="JoinUs">Join Us</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="BookRec" value="BookRec">
-            <label class="form-check-label" for="BookRec">Book Recommendation</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="Other" value="Other">
-            <label class="form-check-label" for="Other">Other</label>
-          </div>
+        <div class="form-check col-sm-12 col-md-2">
+          <input class="form-check-input" type="checkbox" id="BookRec" value="BookRec">
+          <label class="form-check-label" for="BookRec">Book Recommendation</label>
         </div>
-
-        <textarea rows="10" cols="100">Add your message here :)</textarea>
-        
-        <button type="submit" class="btn btn-primary">Submit</button>
-
-      </form>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+        <div class="form-check col-sm-12 col-md-2">
+          <input class="form-check-input" type="checkbox" id="Other" value="Other">
+          <label class="form-check-label" for="Other">Other</label>
+        </div>
+      </div>
+      <div class="form-row">
+      <textarea class="col-12" rows="10">Add your message here :)</textarea>
+      </div>
+      <div class="form-row justify-content-center">
+      <button type="submit" class="btn btn-primary ">Submit</button>
+      </div>
+    </div>
+    </form>
+  </section>
+  <footer></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
-<footer></footer>
+
 </html>

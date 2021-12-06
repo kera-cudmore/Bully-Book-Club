@@ -4,7 +4,12 @@ body {
     background-color: #DAF7FB;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Chewy', sans-serif;
     text-align: center;
 }
@@ -24,8 +29,14 @@ p {
     background-color: #E9DBFA;
 }
 
+.d-inline-block {
+    border-radius: 50%;
+}
+
 .navbar-brand {
     font-family: 'Chewy', sans-serif;
+    font-size: 40px;
+
 }
 
 .nav-link {
@@ -44,6 +55,7 @@ p {
 h5.card-title {
     font-size: 25px;
 }
+
 h6.card-title {
     font-size: 20px;
 }
@@ -62,12 +74,12 @@ p.card-text {
 /*-------------------------------------------------------------------------------- Contact  */
 
 .input-group-text {
-    background-color: #b6b3d1 ;
+    background-color: #b6b3d1;
 }
 
 .btn {
-    display: flex ;
-    background-color: #b6b3d1 ;   
+    display: flex;
+    background-color: #b6b3d1;
     color: #000000;
     border-color: #000000;
 }

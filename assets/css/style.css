@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 
 body {
     background-color: #DAF7FB;
@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Chewy', sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
 }
 
@@ -34,8 +34,8 @@ p {
 }
 
 .navbar-brand {
-    font-family: 'Chewy', sans-serif;
-    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
 
 }
 

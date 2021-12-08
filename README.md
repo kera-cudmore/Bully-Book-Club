@@ -87,6 +87,11 @@ Due to a recent growth in membership and personal commitments, the owner of bull
 
 ### Colour Scheme
 
+![Bully Book Club Website Colour Palette](assets/docs/colour-palette.png)
+
+The website uses a palette of pastel colours that are often used in the Bully Book Club logo images. The colour palette was created using the [Coolors](https://coolors.co/) website.
+
+
 ### Typography
 
 Google Fonts was used for the following fonts:
@@ -124,7 +129,7 @@ Github - To save and store the files for the website.
 
 Google Dev Tools - 
 
-[Tiny PNG](https://tinypng.com/) To compress images used on the website.
+[Tiny PNG](https://tinypng.com/) To compress images.
 
 
 

@@ -1,8 +1,8 @@
 # Bully Book Club Website
 
-Brief Description of the website to go here. 
+The Bully Book Club website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about the book club.
 
-Link to the deployed website to go here.
+[View Bully Book Club on Github Pages](https://kera-cudmore.github.io/milestone-project-one-ci/)
 
 Screenshot of the website to go here. 
 
@@ -50,7 +50,7 @@ Screenshot of the website to go here.
 ## User Experience (UX)
 ### Initial Discussion
 
-Bully Book Club is an Instagram book club that reviews a book once a month on Instagram. Members post a photo of the book with their bulldog with a review and use hashtags to drive up the visibility of the chosen book, author and publisher on that day. 
+Bully Book Club is an online book club that reviews a book once a month on Instagram. Members post a photo of the book with their bulldog with a review and use hashtags to drive up the visibility of the chosen book, author and publisher on that day. 
 
 Due to a recent growth in membership and personal commitments, the owner of bully book club is spending a large amount of time answering questions from users asking what the book club is reading and how to participate.
 
@@ -65,6 +65,7 @@ Due to a recent growth in membership and personal commitments, the owner of bull
 ### User Stories
 
 #### Client Goals
+* To be able to view the site on a range of device sizes.
 * To make it easy for potential members to find out what the book club is and how to take part. 
 * To make it clear for members to see what we are currently reading and what is coming up next. 
 * To allow people to be able to contact the Book Club to ask further questions or with book recommendations etc. 
@@ -80,6 +81,7 @@ Due to a recent growth in membership and personal commitments, the owner of bull
 
 #### Frequent Visitor Goals
 * I want to be able to recommend a book for the book club to read. 
+
 ---
 ## Design
 
@@ -89,11 +91,9 @@ Due to a recent growth in membership and personal commitments, the owner of bull
 
 Google Fonts was used for the following fonts:
 
-Chewy is used for headings on the site.
+* Merriweather is used for headings on the site. It is a serif font.
 
-Raleway is used for the body text on the site. It is a sans-serif font.  
-
-Sans-serif has been chosen as a fallback font in case the chosen font doesn't load correctly. 
+* Raleway is used for the body text on the site. It is a sans-serif font.  
 
 ### Imagery
 
@@ -112,19 +112,21 @@ HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Bootstrap Version <mark>?</mark> - This was used for the CSS.
+Bootstrap Version 4.6 - The framework for the website. Additional CSS styling was also implemented in style.css
 
-Google Fonts - This was used to download the fonts used on the website.
+Google Fonts - To import the fonts used on the website.
 
-Font Awesome - 
+Font Awesome - For the iconograpgy on the website. 
 
-Git - This was used for version control.
+Git - For version control.
 
-Github - This was used to save and store the files for the website.
+Github - To save and store the files for the website.
 
 Google Dev Tools - 
 
-[Tiny PNG](https://tinypng.com/) Was used to compress the images.
+[Tiny PNG](https://tinypng.com/) To compress images used on the website.
+
+
 
 ---
 ## Deployment
@@ -154,6 +156,8 @@ List how to clone the project on github here step by step.
 
 ### Solved Bugs
 
+1. The navbar would lose its alignment when on smaller devices, with the navbar brand pushing the burger icon down and over to the left underneath the site logo. This did not make for a good user experience, as the sites navigation for other sizes is on the right hand side of the navbar. While searching through the bootstrap documentation for navigation bars it directed me to display properties and hiding elements. Once I added the correct class I was then able to hide the navbar brand on devices smaller than a tablet, allowing the alignment of the navbar items to stay in place where I wanted them.
+
 ### Known Bugs
 
 ### Lighthouse
@@ -174,7 +178,9 @@ List how to clone the project on github here step by step.
 
 ### Media
 
-#### Book Cover Images & Blurbss
+#### Book Cover Images
+
+Each book cover was taken from the publishers website.
 
 [Taste](https://www.simonandschuster.com/books/Taste/Stanley-Tucci/9781982168018)
 [A Pinch of Magic](https://www.simonandschuster.co.uk/books/A-Pinch-of-Magic/Michelle-Harrison/A-Pinch-of-Magic-Adventure/9781471124297)
@@ -191,8 +197,14 @@ List how to clone the project on github here step by step.
 [My Sister the Serial Killer](https://www.penguinrandomhouse.com/books/588860/my-sister-the-serial-killer-by-oyinkan-braithwaite/)
 [The Midnight Library](https://www.penguinrandomhouse.com/books/575653/the-midnight-library-by-matt-haig/)
 
+#### Other Images
+
+- Bully Book Club Logo - with permission from Yasmin Daly, Creator of Bully Book Club
+
 ### Acknowledgments
 
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
 
-- 
+* Yasmin Daly, Creator of Bully Book Club, for allowing me to create a website based on the book club.
+* Adegbenga Adeye, my Code Institute Mentor.
+* 

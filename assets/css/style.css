@@ -150,6 +150,20 @@ p.card-text {
     background-color: #b6b3d1;
 }
 
+/*-------------------------------------------------------------------------------- Media Queries  */
+
+
+@media only screen and (max-width: 576px) {
+  .card-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+    display: none;
+  }
+}
 /*-------------------------------------------------------------------------------- Contact  */
 
 .input-group-text {

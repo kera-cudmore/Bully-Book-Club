@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 
 body {
-    background-color: #DAF7FB;
-    font-family: 'Raleway', sans-serif;
+  background-color: #DAF7FB;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1,
@@ -11,13 +11,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Merriweather', serif;
-    text-align: center;
+  font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 h1 {
-    font-size: 3rem;
-    padding: 20px 0px 20px 0px;
+  font-size: 3rem;
+  padding: 20px 0px 20px 0px;
 }
 
 h2,
@@ -28,6 +28,7 @@ h3 {
 p {
   text-align: justify;
 }
+
 /*-------------------------------------------------------------------------------- navbar */
 
 .navbar {
@@ -35,120 +36,135 @@ p {
 }
 
 .bg-nav {
-    background-color: #E9DBFA;
+  background-color: #E9DBFA;
 }
 
 .navbar-brand img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .navbar-brand {
-    font-family: 'Merriweather', serif;
-    font-size: 30px;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
 
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000000;
+  color: #000000;
 }
 
 /*-------------------------------------------------------------------------------- hover.css  */
 .hvr-float-shadow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-  .hvr-float-shadow:before {
-    pointer-events: none;
-    position: absolute;
-    z-index: -1;
-    content: '';
-    top: 100%;
-    left: 5%;
-    height: 10px;
-    width: 90%;
-    opacity: 0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-    /* W3C */
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform, opacity;
-    transition-property: transform, opacity;
-  }
-  .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-    /* move the element up by 5px */
-  }
-  .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-    opacity: 1;
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
-  }
-  
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.hvr-float-shadow:hover,
+.hvr-float-shadow:focus,
+.hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+
+.hvr-float-shadow:hover:before,
+.hvr-float-shadow:focus:before,
+.hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
 
 @-webkit-keyframes hvr-push {
-    50% {
-      -webkit-transform: scale(0.8);
-      transform: scale(0.8);
-    }
-    100% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
   }
-  @keyframes hvr-push {
-    50% {
-      -webkit-transform: scale(0.8);
-      transform: scale(0.8);
-    }
-    100% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
-  .hvr-push {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
   }
-  .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
-    -webkit-animation-name: hvr-push;
-    animation-name: hvr-push;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
+}
+
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-push:hover,
+.hvr-push:focus,
+.hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
 
 /*-------------------------------------------------------------------------------- Container  */
 
-  .container-fluid {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .card-container {
   padding-top: 20px;
   padding-bottom: 100px;
 }
+
 .form-container {
-  padding-top: 20px;    
+  padding-top: 20px;
   padding-bottom: 100px;
-  }
+}
 
 .about-us-container {
   padding-top: 20px;
@@ -164,7 +180,7 @@ div.col-12.col-lg-3 {
   padding-right: 30px;
 }
 
-.join-us p{
+.join-us p {
   text-align: center;
 
 }
@@ -172,33 +188,34 @@ div.col-12.col-lg-3 {
 /*-------------------------------------------------------------------------------- Cards  */
 
 .card {
- height: 100%;
+  height: 100%;
 }
+
 .card-header {
-    font-size: 18px;
-    text-align: center;
-    color: #000000;
-    background-color: #d6b6ff;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  background-color: #d6b6ff;
 }
 
 h5.card-title {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 h6.card-title {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 p.card-text {
-    text-align: justify;
+  text-align: justify;
 }
 
 .card-footer {
-    font-size: 18px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #d6b6ff;
-    border-top: none;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #d6b6ff;
+  border-top: none;
 }
 
 /*-------------------------------------------------------------------------------- Media Queries  */
@@ -213,19 +230,19 @@ p.card-text {
 /*-------------------------------------------------------------------------------- Contact  */
 
 .input-group-text {
-    background-color: #d6b6ff;
+  background-color: #d6b6ff;
 }
 
 .btn {
-    display: flex;
-    background-color: #d6b6ff;
-    color: #000000;
-    border-color: #000000;
+  display: flex;
+  background-color: #d6b6ff;
+  color: #000000;
+  border-color: #000000;
 }
 
 /*-------------------------------------------------------------------------------- Footer  */
 
 footer i {
-    color: #000;
-    font-size: 1.25rem;
+  color: #000;
+  font-size: 1.25rem;
 }

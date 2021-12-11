@@ -3,7 +3,6 @@
 body {
     background-color: #DAF7FB;
     font-family: 'Raleway', sans-serif;
-
 }
 
 h1,
@@ -122,13 +121,29 @@ h1 {
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
   }
+
+/*-------------------------------------------------------------------------------- Container  */
+
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px
+  }
+
+  main.form-container {
+    padding-bottom: 100px;
+  }
+
+.footer-container {
+  text-align: center;
+}
+
 /*-------------------------------------------------------------------------------- Cards  */
 
 .card-header {
     font-size: 18px;
     text-align: center;
     color: #000000;
-    background-color: #b6b3d1;
+    background-color: #d6b6ff;
 }
 
 h5.card-title {
@@ -147,7 +162,7 @@ p.card-text {
     font-size: 18px;
     text-align: center;
     color: #ffffff;
-    background-color: #b6b3d1;
+    background-color: #d6b6ff;
 }
 
 /*-------------------------------------------------------------------------------- Media Queries  */
@@ -159,20 +174,15 @@ p.card-text {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-    display: none;
-  }
-}
 /*-------------------------------------------------------------------------------- Contact  */
 
 .input-group-text {
-    background-color: #b6b3d1;
+    background-color: #d6b6ff;
 }
 
 .btn {
     display: flex;
-    background-color: #b6b3d1;
+    background-color: #d6b6ff;
     color: #000000;
     border-color: #000000;
 }

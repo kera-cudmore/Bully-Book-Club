@@ -137,6 +137,10 @@ h3 {
     padding-right: 30px;
   }
 
+.card-container {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
 .form-container {
   padding-top: 20px;    
   padding-bottom: 100px;
@@ -153,6 +157,9 @@ h3 {
 
 /*-------------------------------------------------------------------------------- Cards  */
 
+.card {
+ height: 100%;
+}
 .card-header {
     font-size: 18px;
     text-align: center;
@@ -177,6 +184,7 @@ p.card-text {
     text-align: center;
     color: #ffffff;
     background-color: #d6b6ff;
+    border-top: none;
 }
 
 /*-------------------------------------------------------------------------------- Media Queries  */

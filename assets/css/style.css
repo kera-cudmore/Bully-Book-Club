@@ -260,12 +260,37 @@ p.card-text {
   background-color: #d6b6ff;
 }
 
+.text-muted {
+  color: #000000;
+}
+
 /* change the colour of the button */
 .btn {
   display: flex;
-  background-color: #d6b6ff;
+  background-color: #E9DBFA;
   color: #000000;
-  border-color: #000000;
+  border-color: #d6b6ff;
+}
+
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #000000;
+  background-color: #E9DBFA;
+  border: #d6b6ff 3px solid;
+}
+
+
+.btn:focus {
+  color: #000000;
+  background-color: #E9DBFA;
+  border: #d6b6ff 3px solid;
+}
+
+.btn-primary:focus {
+  color: #000000;
+  background-color: #E9DBFA;
+  border-color: #d6b6ff;
+  box-shadow: 0 0 0 0.2rem rgb(214 182 255 / 50%);
 }
 
 /* FOOTER */

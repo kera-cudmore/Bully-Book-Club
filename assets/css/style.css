@@ -215,7 +215,14 @@ div.col-12.col-lg-3 {
   .card {
     height: 100%;
   }
-  
+
+  /*styling the badge in the card header */
+.badge-primary {
+  background-color: #000000;
+  color: #d6b6ff;
+  padding: 5px;
+}
+
   /* Styling the card headers*/
 .card-header {
     padding: 0.75rem 1.25rem;

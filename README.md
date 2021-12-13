@@ -165,6 +165,8 @@ List how to clone the project on github here step by step.
 
 ### Known Bugs
 
+1. The carousel expands and then goes to the correct size as it cycles through the images on devices larger than a tablet. 
+
 ### Lighthouse
 
 #### Performance
@@ -185,7 +187,7 @@ List how to clone the project on github here step by step.
 
 #### Book Cover Images
 
-Each book cover was taken from the publishers website.
+- Each book cover was taken from the publishers website.
 
 [Taste](https://www.simonandschuster.com/books/Taste/Stanley-Tucci/9781982168018)
 [A Pinch of Magic](https://www.simonandschuster.co.uk/books/A-Pinch-of-Magic/Michelle-Harrison/A-Pinch-of-Magic-Adventure/9781471124297)
@@ -205,6 +207,7 @@ Each book cover was taken from the publishers website.
 #### Other Images
 
 - Bully Book Club Logo - with permission from Yasmin Daly, Creator of Bully Book Club
+- All images used in the carousel on the index page are photos of Bully Book Club members who kindly gave their permission for them to be used in this project. 
 
 ### Acknowledgments
 
@@ -212,4 +215,4 @@ I would like to acknowledge the following people who helped me along the way in 
 
 * Yasmin Daly, Creator of Bully Book Club, for allowing me to create a website based on the book club.
 * Adegbenga Adeye, my Code Institute Mentor.
-* 
+* Abi Harrison - For her webinar on meta tags.

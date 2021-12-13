@@ -33,9 +33,18 @@
           <li class="nav-item hvr-float-shadow">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item active hvr-float-shadow">
-            <a class="nav-link" href="books.html">Books<span class="sr-only">(current)</span></a>
+
+          <li class="nav-item dropdown nav-item active hvr-float-shadow">
+            <a class="nav-link dropdown-toggle" href="books.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+              Books<span class="sr-only">(current)</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#currently-reading">Currently Reading</a>
+              <a class="dropdown-item" href="#reading-next">Reading Next</a>
+              <a class="dropdown-item" href="#2021">2021</a>
+            </div>
           </li>
+
           <li class="nav-item hvr-float-shadow">
             <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
@@ -55,7 +64,7 @@
     <!-- book cards -->
     <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 d-flex justify-content-center">
       <div class="col mb-4">
-        <div class="card">
+        <div id="reading-next" class="card">
           <div class="card-header">
             January 2022
           </div>
@@ -87,11 +96,11 @@
     </div>
     </div>
 
-    <h2>2021</h2>
+    <h2 id="2021">2021</h2>
 
     <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 d-flex justify-content-center">
       <div class="col mb-4">
-        <div class="card">
+        <div id="currently-reading" class="card">
           <div class="card-header">
             December 2021
           </div>

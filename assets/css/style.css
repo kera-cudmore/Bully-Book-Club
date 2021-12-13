@@ -63,6 +63,10 @@ h6 {
 
 }
 
+.dropdown-menu {
+  background-color: #d6b6ff;
+}
+
 /* to style the navbar links colour */
 .navbar-light .navbar-nav .nav-link {
   color: #000000;

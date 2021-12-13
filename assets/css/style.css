@@ -2,11 +2,13 @@
 
 /* GLOBAL STYLES */
 
+/* sets the background colour and the font family for the body of the website */
 body {
   background-color: #DAF7FB;
   font-family: 'Raleway', sans-serif;
 }
 
+/* sets the headings to Merriweather font, centers the text and adds padding */
 h1,
 h2,
 h3,
@@ -68,6 +70,8 @@ h6 {
 }
 
 /* HOVER STYLING - hover.css from https://ianlunn.github.io/Hover/ */
+
+/* Hover.css to style the navbar links */
 .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -142,6 +146,7 @@ h6 {
   }
 }
 
+  /* hover.css to style the footer links */
 .hvr-push {
   display: inline-block;
   vertical-align: middle;
@@ -175,10 +180,11 @@ h6 {
 .about-us-container {
   padding-top: 20px;
   padding-bottom: 50px;
+}
 
 .card-container {
   padding-top: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .form-container {
@@ -186,11 +192,13 @@ h6 {
   padding-bottom: 100px;
 }
 
+  /* adding padding to the layout of the cards on books page */
 div.col-12.col-lg-3 {
   padding-left: 30px;
   padding-right: 30px;
 }
 
+  /* adding padding the the join us section */
 .join-us {
   text-align: center;
   padding-bottom: 100px;
@@ -199,6 +207,11 @@ div.col-12.col-lg-3 {
 
 /* CARDS */
 
+  /* To make the cards all align at the same height */
+  .card {
+    height: 100%;
+  }
+  
   /* Styling the card headers*/
 .card-header {
     padding: 0.75rem 1.25rem;
@@ -208,11 +221,6 @@ div.col-12.col-lg-3 {
     text-align: center;
 }
 
-  /* To make the cards all align at the same height */
-.card {
-  height: 100%;
-}
-
   /* justify the card text */
 p.card-text {
   text-align: justify;
@@ -220,11 +228,12 @@ p.card-text {
 
   /* this media query hides the text within the card from displaying on screens smaller than a tablet*/
 @media only screen and (max-width: 576px) {
-  .card-text {
+  .card-body {
     display: none;
   }
 }
 
+  /* styling the card footer */
 .card-footer {
   font-size: 1.125rem;
   text-align: center;
@@ -250,11 +259,10 @@ p.card-text {
 
 /* FOOTER */
 
-/* FOOTER */
-
   /* Aligning the icons central in their containers */
 .footer-container {
   text-align: center;
+  
 }
 
   /*change the size & colour of the icons in the footer */

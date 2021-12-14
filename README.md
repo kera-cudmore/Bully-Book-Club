@@ -105,7 +105,16 @@ Google Fonts was used for the following fonts:
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop. 
-[You can view the Bully Book Club Wireframes Here]() 
+
+Home Page
+![Home Page Wireframe](assets/docs/home-page-wireframe.png)
+
+Books Page
+![Books Wireframe](assets/docs/books-wireframe.png)
+
+Contact Us Page
+![Contact Us Wireframe](assets/docs/contact-us-wireframe.png)
+
 
 ### Features
 --- 
@@ -116,6 +125,8 @@ Wireframes were created for mobile, tablet and desktop.
 HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
+
+Balsamiq - Used to create wireframes.
 
 Bootstrap Version 4.6 - The framework for the website. Additional CSS styling was also implemented in style.css
 
@@ -138,11 +149,21 @@ Google Dev Tools -
 
 ### Initial Deployment
 
-List how the site was deployed here step by step.
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, milestone-project-one-ci.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu. 
+6. Click Save. Your live Github Pages site is now deployed at the URL shown. 
+
 
 ### How to Fork
 
-List how to fork the project on github here step by step.
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, milestone-project-one-ci.
+3. Click the Fork button in the top right corner. 
 
 ### How to Clone
 
@@ -182,6 +203,8 @@ List how to clone the project on github here step by step.
 ## Credits
 
 ### Code Used
+
+- [Abi Harrison's Meta Tags webinar and repository](https://github.com/Abibubble/meta-tags-example)
 
 ### Content
 

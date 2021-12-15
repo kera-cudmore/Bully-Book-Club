@@ -290,6 +290,10 @@ content: "📚  ";
   color: #000000;
 }
 
+.checkbox-group {
+  padding-left: 15px;
+}
+
 /* change the colour of the button */
 .btn {
   display: flex;

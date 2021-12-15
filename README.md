@@ -186,6 +186,10 @@ List how to clone the project on github here step by step.
 
 2. The cards on the books page were very long when on smaller devices, causing the user to scroll for a while before seeing the next book. By using a media query to hide the card body I am able to condense the card for a better viewing experience on smaller devices. 
 
+3. Halfway down the books page on small devices the columns would jump from displaying one column to displating two colums. After trying several ways to change this with no effect, I posed the problem to the slack community. Simen Daehlin suggested that I specify on the column class what sizes I would use for the screen sizes. By adding these column size classes it has resolved the problem.
+
+![Column Issue](assets/docs/column-issue.gif)
+
 ### Known Bugs
 
 1. The carousel expands and then goes to the correct size as it cycles through the images on devices larger than a tablet. 
@@ -240,5 +244,6 @@ List how to clone the project on github here step by step.
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
 
 * Yasmin Daly, Creator of Bully Book Club, for allowing me to create a website based on the book club.
-* Adegbenga Adeye, my Code Institute Mentor.
-* Abi Harrison - For her webinar on meta tags.
+* [Adegbenga Adeye](https://github.com/deye9), my Code Institute Mentor.
+* [Abi Harrison](https://github.com/Abibubble) - For her webinar on meta tags.
+* [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue 

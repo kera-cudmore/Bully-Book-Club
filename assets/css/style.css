@@ -25,14 +25,6 @@ h1 {
   font-weight: 500;
 }
 
-h5 {
-  font-size: 1.5rem;
-}
-
-h6 {
-  font-size: 1.25rem;
-}
-
   /* Adds extra padding on the sides of the container*/
 .container-fluid {
   padding-left: 30px;
@@ -232,6 +224,17 @@ div.col-12.col-lg-3 {
     text-align: center;
 }
 
+.book-title {
+  font-size: 1.5rem;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.book-author {
+  font-size: 1.25rem;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
   /* justify the card text */
 p.card-text {
   text-align: justify;

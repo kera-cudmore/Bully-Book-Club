@@ -25,6 +25,9 @@ h1 {
   font-weight: 500;
 }
 
+p {
+  text-align: center;
+}
   /* Adds extra padding on the sides of the container*/
 .container-fluid {
   padding-left: 30px;
@@ -271,6 +274,9 @@ p.card-text {
   margin: 0;
 }
 
+li {
+  padding-bottom: 8px;
+}
 .contact-us-list li::before {
 content: "📚  ";
 }

@@ -205,6 +205,7 @@ List how to clone the project on github here step by step.
 ### Code Used
 
 - [Abi Harrison's Meta Tags webinar and repository](https://github.com/Abibubble/meta-tags-example)
+- [Tutorial to change bullet images to emojis](https://daily-dev-tips.com/posts/css-emoji-list-style/)
 
 ### Content
 

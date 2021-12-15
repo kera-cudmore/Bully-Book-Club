@@ -52,7 +52,6 @@ h1 {
   font-family: 'Merriweather', serif;
   font-size: 2.5rem;
   font-weight: 500;
-
 }
 
 .dropdown-menu {
@@ -117,7 +116,7 @@ h1 {
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-
+ /* hover.css to style the footer links */
 @-webkit-keyframes hvr-push {
   50% {
     -webkit-transform: scale(0.8);
@@ -142,7 +141,6 @@ h1 {
   }
 }
 
-  /* hover.css to style the footer links */
 .hvr-push {
   display: inline-block;
   vertical-align: middle;
@@ -170,6 +168,8 @@ h1 {
 .carousel-control-next, .carousel-control-prev {
   opacity: 0.2;
 }
+
+
 
 /* PADDING  */
 
@@ -257,6 +257,22 @@ p.card-text {
 }
 
 /* FORM */
+
+  /* Styling the list items bullet points to be 📚 - tutorial from https://daily-dev-tips.com/posts/css-emoji-list-style/ */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-us-list li {
+padding-left: 1rem;
+text-indent: 0.75rem;
+}
+
+.contact-us-list li::before {
+content: "📚  ";
+}
 
   /*change the background colour */
 .input-group-text {

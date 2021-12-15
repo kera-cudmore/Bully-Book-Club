@@ -197,6 +197,8 @@ div.col-12.col-lg-3 {
   /* adding padding the the join us section */
 .join-us {
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 100px;
 }
 
@@ -258,16 +260,15 @@ p.card-text {
 
 /* FORM */
 
+.contact-us-list {
+  margin-bottom: 20px;
+}
+
   /* Styling the list items bullet points to be 📚 - tutorial from https://daily-dev-tips.com/posts/css-emoji-list-style/ */
-ul {
+  ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.contact-us-list li {
-padding-left: 1rem;
-text-indent: 0.75rem;
 }
 
 .contact-us-list li::before {

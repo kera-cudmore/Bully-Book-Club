@@ -152,6 +152,8 @@ Google Dev Tools - To find the correct code for the selected feature.
 
 [Birme](https://www.birme.net/) To resize images.
 
+[Favicon.io](https://favicon.io/) To create favicon
+
 - - -
 
 ## Deployment

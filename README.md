@@ -114,13 +114,13 @@ Google Fonts was used for the following fonts:
 Wireframes were created for mobile, tablet and desktop.
 
 Home Page
-![Home Page Wireframe](assets/docs/home-page-wireframe.png)
+![Home Page Wireframe](assets/docs/wireframes/home-page-wireframe.png)
 
 Books Page
-![Books Wireframe](assets/docs/books-wireframe.png)
+![Books Wireframe](assets/docs/wireframes/books-wireframe.png)
 
 Contact Us Page
-![Contact Us Wireframe](assets/docs/contact-us-wireframe.png)
+![Contact Us Wireframe](assets/docs/wireframes/contact-us-wireframe.png)
 
 ### Features
 

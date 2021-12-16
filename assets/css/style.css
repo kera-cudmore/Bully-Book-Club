@@ -191,7 +191,7 @@ div.col-12.col-lg-3 {
   padding-right: 1.875rem;
 }
 
-/* adding padding the the join us section */
+/* adding padding the the join us section on home page */
 .join-us {
   text-align: center;
   padding-left: 1.875rem;
@@ -199,6 +199,12 @@ div.col-12.col-lg-3 {
   padding-bottom: 6.25rem;
 }
 
+/* Padding for Thank you page container*/
+.thankyou-container {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  padding-bottom: 6.25rem;
+}
 /* CARDS */
 
 /* To make the cards all align at the same height */
@@ -316,6 +322,17 @@ li {
   background-color: #E9DBFA;
   border-color: #d6b6ff;
   box-shadow: 0 0 0 0.2rem rgb(214 182 255 / 50%);
+}
+
+/* THANK YOU PAGE*/
+/*make image central on page*/
+.dictator {
+  text-align: center;
+}
+
+/*resize paw icon on thank you page*/
+.fa-paw:before {
+  font-size: 5rem;
 }
 
 /* FOOTER */

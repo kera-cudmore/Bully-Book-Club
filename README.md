@@ -208,6 +208,8 @@ A few issues were pointed out during my mid project meeting with my mentor:
 
 4. The textarea required attribute wasn't activating when the form was submitted. After searching for an answer, I asked on slack and Dave Horrocks spotted that as I had a message in the textarea it was reading that as a message had been entered in the textarea. By adding the message into a placeholder the issue has been rectified.
 
+5. When viewing the books page which is very long, you would have to scroll all the way back up to the top to reach any navigation links. I thought a scroll to top button that floats on the bottom right would fix this problem, however I do not have any javascript knowledge currently to be able to achieve this. My only alternative, which was also suggested by Dave Horrocks on Slack, would be to change the top navbar to be fixed to the top. By adding the bootstrap class fixed-top I was able to achieve this.
+
 ### Known Bugs
 
 ### Lighthouse

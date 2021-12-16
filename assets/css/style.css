@@ -18,7 +18,7 @@ h5,
 h6 {
   font-family: 'Merriweather', serif;
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 h1 {
@@ -32,8 +32,8 @@ p {
 
 /* Adds extra padding on the sides of the container*/
 .container-fluid {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
 }
 
 /* NAVBAR */
@@ -172,31 +172,31 @@ p {
 
 .about-us-container {
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
 .card-container {
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 1.25rem;
+  padding-bottom: 3.125rem;
 }
 
 .form-container {
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 1.25rem;
+  padding-bottom: 6.25rem;
 }
 
 /* adding padding to the layout of the cards on books page */
 div.col-12.col-lg-3 {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
 }
 
 /* adding padding the the join us section */
 .join-us {
   text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 100px;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  padding-bottom: 6.25rem;
 }
 
 /* CARDS */
@@ -210,7 +210,7 @@ div.col-12.col-lg-3 {
 .badge-primary {
   background-color: #000000;
   color: #d6b6ff;
-  padding: 5px;
+  padding: 0.313rem;
 }
 
 /* Styling the card headers*/
@@ -258,7 +258,7 @@ p.card-text {
 /* FORM */
 
 .contact-us-list {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 /* Styling the list items bullet points to be 📚 - tutorial from https://daily-dev-tips.com/posts/css-emoji-list-style/ */
@@ -269,7 +269,7 @@ ul {
 }
 
 li {
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
 }
 
 .contact-us-list li::before {
@@ -286,7 +286,7 @@ li {
 }
 
 .checkbox-group {
-  padding-left: 15px;
+  padding-left: 0.938rem;
 }
 
 /* change the colour of the button */

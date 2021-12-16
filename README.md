@@ -107,6 +107,8 @@ Google Fonts was used for the following fonts:
 
 * Raleway is used for the body text on the site. It is a sans-serif font.  
 
+* Indie Flower is used on the thank you page for Harrison Fords message. It is a cursive font.
+
 ### Imagery
 
 ### Wireframes
@@ -290,6 +292,8 @@ A few issues were pointed out during my mid project meeting with my mentor:
   * [Slide 3](https://www.instagram.com/chubbspetersonthebulldog/?hl=en)
   * [Slide 4 & 6](https://www.instagram.com/basicallybusterspage/?hl=en)
   * [Slide 5](https://www.instagram.com/bookswithbubba/?hl=en)
+
+* Illustration of Harrison Ford used on the thank you page - with kind permission from [Harrison Ford](https://www.instagram.com/harrisonfordbulldog/)
 
 ### Acknowledgments
 

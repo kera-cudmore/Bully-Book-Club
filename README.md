@@ -186,7 +186,7 @@ List how to clone the project on github here step by step.
 A few issues were pointed out during my mid project meeting with my mentor:
 
 * The Join Us section on the home page was not in alignment with the rest of the page. ~ Padding has now been added to bring it in alignment with the rest of the pages padding.
-* There was an issue on smaller devices where the book columns were not displaying properly. ~ more information under issue 2 in solved bugs
+* There was an issue on smaller devices where the book columns were not displaying properly. ~ more information under issue 2 in solved bugs.
 * The introduction paragraph on the books page was not aligned in style with the rest of the page. ~ The text has now been centered.
 * The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input.
 
@@ -204,9 +204,9 @@ A few issues were pointed out during my mid project meeting with my mentor:
 
 2. The cards on the books page were very long when on smaller devices, causing the user to scroll for a while before seeing the next book. By using a media query to hide the card body I am able to condense the card for a better viewing experience on smaller devices.
 
-3. Halfway down the books page on small devices the columns would jump from displaying one column to displating two colums. After trying several ways to change this with no effect, I posed the problem to the slack community. Simen Daehlin suggested that I specify on the column class what sizes I would use for the screen sizes. By adding these column size classes it has resolved the problem.
+3. Halfway down the books page on small devices the columns would jump from displaying one column to displating two colums. After trying several ways to change this with no effect, I posed the problem to the slack community. Simen Daehlin suggested that I specify on the column class what sizes I would use for the screen sizes. By adding these column size classes it has resolved the problem. ![Column Issue](assets/docs/column-issue.gif)
 
-![Column Issue](assets/docs/column-issue.gif)
+4. The textarea required attribute wasn't activating when the form was submitted. After searching for an answer, I asked on slack and Dave Horrocks spotted that as I had a message in the textarea it was reading that as a message had been entered in the textarea. By adding the message into a placeholder the issue has been rectified.
 
 ### Known Bugs
 
@@ -296,4 +296,5 @@ I would like to acknowledge the following people who helped me along the way in 
 * Yasmin Daly, Creator of Bully Book Club, for allowing me to create a website based on the book club.
 * [Adegbenga Adeye](https://github.com/deye9), my Code Institute Mentor.
 * [Abi Harrison](https://github.com/Abibubble) - For her webinar on meta tags.
-* [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue
+* [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue.
+* [Dave Horrocks](https://github.com/daveyjh) - For his help with the textarea required issue.

@@ -28,7 +28,8 @@ h1 {
 p {
   text-align: center;
 }
-  /* Adds extra padding on the sides of the container*/
+
+/* Adds extra padding on the sides of the container*/
 .container-fluid {
   padding-left: 30px;
   padding-right: 30px;
@@ -36,40 +37,41 @@ p {
 
 /* NAVBAR */
 
-  /* Additional padding added to the navbar to push in the navbar image and toggler */
+/* Additional padding added to the navbar to push in the navbar image and toggler */
 .navbar {
   padding: 0.75rem 1.5rem;
 }
 
-  /* navbar background colour */
+/* navbar background colour */
 .bg-nav {
   background-color: #E9DBFA;
 }
 
-  /* Styling to the navbar image to make it a circle */
+/* Styling to the navbar image to make it a circle */
 .navbar-brand img {
   border-radius: 50%;
 }
-  /* To style the navbar brand with merriweather font, which is being used for headings, & heading font weight */
+
+/* To style the navbar brand with merriweather font, which is being used for headings, & heading font weight */
 .navbar-brand {
   font-family: 'Merriweather', serif;
   font-size: 2.5rem;
   font-weight: 500;
 }
 
-  /* Changes the background colour of the dropdown menu in the navbar*/
+/* Changes the background colour of the dropdown menu in the navbar*/
 .dropdown-menu {
   background-color: #d6b6ff;
 }
 
-  /* to style the navbar links colour */
+/* to style the navbar links colour */
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
   font-size: 1.25rem;
 }
 
 /* HOVER STYLING - hover.css from https://ianlunn.github.io/Hover/ */
-  /* Hover.css to style the navbar links */
+/* Hover.css to style the navbar links */
 .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -119,7 +121,7 @@ p {
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
- /* hover.css to style the footer links */
+/* hover.css to style the footer links */
 @-webkit-keyframes hvr-push {
   50% {
     -webkit-transform: scale(0.8);
@@ -182,13 +184,13 @@ p {
   padding-bottom: 100px;
 }
 
-  /* adding padding to the layout of the cards on books page */
+/* adding padding to the layout of the cards on books page */
 div.col-12.col-lg-3 {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-  /* adding padding the the join us section */
+/* adding padding the the join us section */
 .join-us {
   text-align: center;
   padding-left: 30px;
@@ -199,25 +201,25 @@ div.col-12.col-lg-3 {
 
 /* CARDS */
 
-  /* To make the cards all align at the same height */
-  .card {
-    height: 100%;
-  }
+/* To make the cards all align at the same height */
+.card {
+  height: 100%;
+}
 
-  /*styling the badge in the card header */
+/*styling the badge in the card header */
 .badge-primary {
   background-color: #000000;
   color: #d6b6ff;
   padding: 5px;
 }
 
-  /* Styling the card headers*/
+/* Styling the card headers*/
 .card-header {
-    padding: 0.75rem 1.25rem;
-    background-color: #d6b6ff;
-    font-size: 1.5rem;
-    font-family: 'Merriweather', serif;
-    text-align: center;
+  padding: 0.75rem 1.25rem;
+  background-color: #d6b6ff;
+  font-size: 1.5rem;
+  font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 .book-title {
@@ -231,19 +233,20 @@ div.col-12.col-lg-3 {
   font-family: 'Merriweather', serif;
   text-align: center;
 }
-  /* justify the card text */
+
+/* justify the card text */
 p.card-text {
   text-align: justify;
 }
 
-  /* this media query hides the text within the card from displaying on screens smaller than a tablet*/
+/* this media query hides the text within the card from displaying on screens smaller than a tablet*/
 @media only screen and (max-width: 576px) {
   .card-body {
     display: none;
   }
 }
 
-  /* styling the card footer */
+/* styling the card footer */
 .card-footer {
   font-size: 1.125rem;
   text-align: center;
@@ -258,8 +261,8 @@ p.card-text {
   margin-bottom: 20px;
 }
 
-  /* Styling the list items bullet points to be 📚 - tutorial from https://daily-dev-tips.com/posts/css-emoji-list-style/ */
-  ul {
+/* Styling the list items bullet points to be 📚 - tutorial from https://daily-dev-tips.com/posts/css-emoji-list-style/ */
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -268,11 +271,12 @@ p.card-text {
 li {
   padding-bottom: 8px;
 }
+
 .contact-us-list li::before {
-content: "📚  ";
+  content: "📚  ";
 }
 
-  /*change the background colour */
+/*change the background colour */
 .input-group-text {
   background-color: #d6b6ff;
 }
@@ -316,12 +320,12 @@ content: "📚  ";
 
 /* FOOTER */
 
-  /* Aligning the icons central in their containers */
+/* Aligning the icons central in their containers */
 .footer-container {
   text-align: center;
 }
 
-  /*change the size & colour of the icons in the footer */
+/*change the size & colour of the icons in the footer */
 footer i {
   color: #000;
   font-size: 1.25rem;

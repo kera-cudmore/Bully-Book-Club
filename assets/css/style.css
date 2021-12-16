@@ -57,19 +57,19 @@ p {
   font-weight: 500;
 }
 
+  /* Changes the background colour of the dropdown menu in the navbar*/
 .dropdown-menu {
   background-color: #d6b6ff;
 }
 
-/* to style the navbar links colour */
+  /* to style the navbar links colour */
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
   font-size: 1.25rem;
 }
 
 /* HOVER STYLING - hover.css from https://ianlunn.github.io/Hover/ */
-
-/* Hover.css to style the navbar links */
+  /* Hover.css to style the navbar links */
 .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -164,15 +164,6 @@ p {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-
-/* CAROUSEL */
-
-  /* Adjusting the opacity of the side control panels */
-.carousel-control-next, .carousel-control-prev {
-  opacity: 0.2;
-}
-
-
 
 /* PADDING  */
 

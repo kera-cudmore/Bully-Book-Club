@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 /* GLOBAL STYLES */
 
 /* sets the background colour and the font family for the body of the website */
@@ -328,6 +327,11 @@ li {
 /*make image central on page*/
 .dictator {
   text-align: center;
+}
+
+.dog-writing {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.25rem;
 }
 
 /*resize paw icon on thank you page*/

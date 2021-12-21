@@ -176,7 +176,7 @@ p {
 
 .card-container {
   padding-top: 1.25rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: 6.25rem;
 }
 
 .form-container {
@@ -258,6 +258,26 @@ p.card-text {
   color: #000000;
   background-color: #d6b6ff;
   border-top: none;
+}
+
+/* Return to top - idea shown to me by Dave Horrocks - for more information see Readme */
+
+#top {
+  position: absolute;
+  top: 0;
+}
+
+#return-to-top {
+  color: #000000;
+  background-color: #E9DBFA;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 4rem;
+  right: 1.875rem;
 }
 
 /* FORM */

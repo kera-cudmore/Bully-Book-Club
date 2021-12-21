@@ -42,6 +42,12 @@ p {
   padding: 0.75rem 1.5rem;
 }
 
+.navbar-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 /* navbar background colour */
 .bg-nav {
   background-color: #E9DBFA;

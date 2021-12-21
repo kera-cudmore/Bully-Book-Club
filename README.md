@@ -190,7 +190,7 @@ A few issues were pointed out during my mid project meeting with my mentor:
 * The Join Us section on the home page was not in alignment with the rest of the page. ~ Padding has now been added to bring it in alignment with the rest of the pages padding.
 * There was an issue on smaller devices where the book columns were not displaying properly. ~ more information under issue 2 in solved bugs.
 * The introduction paragraph on the books page was not aligned in style with the rest of the page. ~ The text has now been centered.
-* The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input.
+* The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input and textarea.
 
 ### W3C Validator
 
@@ -210,7 +210,9 @@ A few issues were pointed out during my mid project meeting with my mentor:
 
 4. The textarea required attribute wasn't activating when the form was submitted. After searching for an answer, I asked on slack and Dave Horrocks spotted that as I had a message in the textarea it was reading that as a message had been entered in the textarea. By adding the message into a placeholder the issue has been rectified.
 
-5. When viewing the books page which is very long, you would have to scroll all the way back up to the top to reach any navigation links. I thought a scroll to top button that floats on the bottom right would fix this problem, however I do not have any javascript knowledge currently to be able to achieve this. My only alternative, which was also suggested by Dave Horrocks on Slack, would be to change the top navbar to be fixed to the top. By adding the bootstrap class fixed-top I was able to achieve this.
+5. When viewing the books page which is very long, you would have to scroll all the way back up to the top to reach any navigation links. I thought a scroll to top button that floats on the bottom right would fix this problem, however I do not have any javascript knowledge currently to be able to achieve this. One alternative suggested by Dave Horrocks on slack was to change the top navbar to be fixed to the top, so this would be visable at all times. By adding the bootstrap class fixed-top I was able to achieve this. Then Dave suggested that I could use an anchor with an ID to achieve something that would work to achieve a scroll to top. He shared a codepen on slack showing how this would work I used the example of the codepen to create my return to top.
+
+6. When I removed the fixed-top from my navbars there was a gap between the navbar and the top of the page. I added a class of navbar-top to the navbar and used CSS to positon the navbar to the top and left of the page. I added the width of 100% so the navbar would fill the width of the page. 
 
 ### Known Bugs
 
@@ -303,4 +305,4 @@ I would like to acknowledge the following people who helped me along the way in 
 * [Adegbenga Adeye](https://github.com/deye9), my Code Institute Mentor.
 * [Abi Harrison](https://github.com/Abibubble) - For her webinar on meta tags.
 * [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue.
-* [Dave Horrocks](https://github.com/daveyjh) - For his help with the textarea required issue.
+* [Dave Horrocks](https://github.com/daveyjh) - For his help with the textarea required issue & the return to top on books page.

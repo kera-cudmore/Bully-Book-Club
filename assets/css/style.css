@@ -211,17 +211,6 @@ div.col-12.col-lg-3 {
   padding-bottom: 6.25rem;
 }
 
-/* CAROUSEL */
-
-.carousel-container, .carousel-inner {
-  height: 80vh;
-  width: 100%;
-}
-
-.carousel-item > img {
-  height: 100%;
-}
-
 /* CARDS */
 /* To make the cards all align at the same height */
 .card {

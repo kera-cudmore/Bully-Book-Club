@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
+
 /* GLOBAL STYLES */
 
 /* sets the background colour and the font family for the body of the website */
@@ -42,6 +43,7 @@ p {
   padding: 0.75rem 1.5rem;
 }
 
+/* to position the top navbar, z-index added to enable the drop down menu to be viewed above the carousel */
 .navbar-top {
   position: absolute;
   top: 0;
@@ -176,16 +178,19 @@ p {
 
 /* PADDING  */
 
+/* Adding padding to the top and bottom of the about us section */
 .about-us-container {
   padding-top: 20px;
   padding-bottom: 3.125rem;
 }
 
+/* Adding padding to the cards container */
 .card-container {
   padding-top: 1.25rem;
   padding-bottom: 6.25rem;
 }
 
+/* adding padding to the form container */
 .form-container {
   padding-top: 1.25rem;
   padding-bottom: 6.25rem;
@@ -197,7 +202,7 @@ div.col-12.col-lg-3 {
   padding-right: 1.875rem;
 }
 
-/* adding padding the the join us section on home page */
+/* adding padding the the join us section on home page and aligning the text */
 .join-us {
   text-align: center;
   padding-left: 1.875rem;
@@ -234,12 +239,14 @@ div.col-12.col-lg-3 {
   text-align: center;
 }
 
+/* changing book titles to Merriweather font so they stand out from body text */
 .book-title {
   font-size: 1.5rem;
   font-family: 'Merriweather', serif;
   text-align: center;
 }
 
+/* changing book authors to Merriweather font so they stand out from body text */
 .book-author {
   font-size: 1.25rem;
   font-family: 'Merriweather', serif;
@@ -267,13 +274,19 @@ p.card-text {
   border-top: none;
 }
 
-/* Return to top - idea shown to me by Dave Horrocks - for more information see Readme */
+/*  paragraph margin in card footer removed */
+.card-footer p {
+  margin-bottom: 0rem;
+}
 
+/* RETURN TO TOP - idea demonstrated to me by Dave Horrocks - for more information see Readme */
+/* positioning the top id */
 #top {
   position: absolute;
   top: 0;
 }
 
+/* styling the return to top anchor*/
 #return-to-top {
   color: #000000;
   background-color: #E9DBFA;
@@ -288,7 +301,7 @@ p.card-text {
 }
 
 /* FORM */
-
+/* adding a margin to the contact us list items */
 .contact-us-list {
   margin-bottom: 1.25rem;
 }
@@ -308,20 +321,17 @@ li {
   content: "📚  ";
 }
 
-/*change the background colour */
+/*change the background colour on the instagram handle input */
 .input-group-text {
   background-color: #d6b6ff;
 }
 
-.text-muted {
-  color: #000000;
-}
-
+/*padding added to the left of the checkboxes so they align with other form items */
 .checkbox-group {
   padding-left: 0.938rem;
 }
 
-/* change the colour of the button */
+/* change the colour of the submit button */
 .btn {
   display: flex;
   background-color: #E9DBFA;
@@ -329,13 +339,13 @@ li {
   border-color: #d6b6ff;
 }
 
+/* Changing the colour of the submit button when hovered over & adding a larger border */
 .btn-primary:hover,
 .btn-primary:not(:disabled):not(.disabled):active {
   color: #000000;
   background-color: #E9DBFA;
   border: #d6b6ff 3px solid;
 }
-
 
 .btn:focus {
   color: #000000;
@@ -351,11 +361,13 @@ li {
 }
 
 /* THANK YOU PAGE*/
-/*make image central on page*/
+
+/*placing image central on page*/
 .dictator {
   text-align: center;
 }
 
+/* Changing the font family of the dog writing section */
 .dog-writing {
   font-family: 'Indie Flower', cursive;
   font-size: 1.25rem;

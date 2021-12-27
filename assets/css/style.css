@@ -176,8 +176,15 @@ p {
   animation-iteration-count: 1;
 }
 
-/* PADDING  */
+/* CAROUSEL */
 
+@media only screen and (min-width: 992px) {
+ .carousel-inner {
+    height: 85vh;
+  }
+}
+
+/* PADDING  */
 /* Adding padding to the top and bottom of the about us section */
 .about-us-container {
   padding-top: 20px;

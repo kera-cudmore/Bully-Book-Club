@@ -296,16 +296,13 @@ p.card-text {
 
 /* styling the return to top anchor*/
 #return-to-top {
-  color: #000000;
-  background-color: #E9DBFA;
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
+  color: #d6b6ff;
+  font-size: 4rem;
   text-decoration: none;
   padding: 1rem;
-  border-radius: 50%;
   position: fixed;
-  bottom: 4rem;
-  right: 1.875rem;
+  bottom: 1.5rem;
+  right: 0.75rem;
 }
 
 /* FORM */

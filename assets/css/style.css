@@ -178,9 +178,10 @@ p {
 
 /* CAROUSEL */
 
-@media only screen and (min-width: 992px) {
- .carousel-inner {
+@media only screen and (min-width: 1024px) {
+  .carousel-item img {
     height: 85vh;
+    object-fit: contain;
   }
 }
 

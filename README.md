@@ -115,14 +115,11 @@ Google Fonts was used for the following fonts:
 
 Wireframes were created for mobile, tablet and desktop.
 
-Home Page
-![Home Page Wireframe](assets/docs/wireframes/home-page-wireframe.png)
+[Home Page Wireframe](assets/docs/wireframes/home-page-wireframe.png)
 
-Books Page
-![Books Wireframe](assets/docs/wireframes/books-wireframe.png)
+[Books Wireframe](assets/docs/wireframes/books-wireframe.png)
 
-Contact Us Page
-![Contact Us Wireframe](assets/docs/wireframes/contact-us-wireframe.png)
+[Contact Us Wireframe](assets/docs/wireframes/contact-us-wireframe.png)
 
 ### Features
 
@@ -185,7 +182,9 @@ List how to clone the project on github here step by step.
 
 ## Testing
 
-A few issues were pointed out during my mid project meeting with my mentor:
+Testing was ongoing throughout the entire build. I utilised the developer tools while building to pinpoint any issues as I went along.
+
+The following issues were pointed out during my mid project meeting with my mentor:
 
 * The Join Us section on the home page was not in alignment with the rest of the page. ~ Padding has now been added to bring it in alignment with the rest of the pages padding.
 * There was an issue on smaller devices where the book columns were not displaying properly. ~ more information under issue 2 in solved bugs.
@@ -214,6 +213,8 @@ A few issues were pointed out during my mid project meeting with my mentor:
 
 6. When I removed the fixed-top from my navbars there was a gap between the navbar and the top of the page. I added a class of navbar-top to the navbar and used CSS to positon the navbar to the top and left of the page. I added the width of 100% so the navbar would fill the width of the page.
 
+7. The carousel displayed fine on small screen devices, however when viewed on larger devices you would need to scroll down to see the entire image, which led to a bad user experience. By using media queries I targeted the large screen size and targeted the carousel item image to only take up 85% of the viewport height. This solved the issue by allowing the user to view the image without having to scroll, but the image was now being stretched across the screen. I searched google and stack overflow and it mentioned using object fit. I researched this further on MDN web docs and added object-fit: contain to the css which allows the image to correctly maintain its aspect ratio and view correctly.
+
 ### Known Bugs
 
 1. Users are able to submit the contact us form without selecting any of the checkboxes. I would have preferred it so that at least one checkbox was selected before the form could be submitted, however when researching this problem I was unable to find a way to achieve this without the use of javascript. I asked on slack whether there was a way to achieve this, it was suggested that I could change the checkboxes to radios, however I wanted users to be able to select more than one option if they needed so this solution wouldn't work. The community confirmed that they only way they could think on to achieve this with checkboxes would be through the use of javascript and change listeners on the checkboxes. As I do not have any experience so far with javascript this is something I am currently unable to implement, but would like to add to the website in a future update.
@@ -239,6 +240,8 @@ A few issues were pointed out during my mid project meeting with my mentor:
 * [Dave Horrocks Copepen for the scroll to top](https://codepen.io/daveyjh/pen/GRMmqOO)
 
 ### Content
+
+Content for the website was written by the owner of Bully Book Club and Kera Cudmore.
 
 ### Media
 

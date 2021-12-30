@@ -386,9 +386,12 @@ li {
 
 /* FOOTER */
 
-/* Aligning the icons central in their containers */
+/* styling the footer colour, adding padding & aligning icons to center of containers */
 .footer-container {
+  background-color: #E9DBFA;
   text-align: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 /*change the size & colour of the icons in the footer */

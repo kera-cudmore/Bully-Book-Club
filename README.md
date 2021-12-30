@@ -111,6 +111,8 @@ Google Fonts was used for the following fonts:
 
 ### Imagery
 
+The member images were used with the permission of their owners. All book covers were taken from the publishers websites. I have credited these in the [credits](#Credits) section.
+
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop.

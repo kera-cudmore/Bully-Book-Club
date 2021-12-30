@@ -125,6 +125,46 @@ Wireframes were created for mobile, tablet and desktop.
 
 ### Features
 
+The website is comprised of four pages, three of which are accessible from the navigation menu (home page, books page & contact us page). The fourth page is a thank you page which is shown once a user submits the form on the contact us page.
+
+* All Pages on the website have:
+
+  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is an image of book clubs logo together with the text Bully Book Club. To the right of the navigation bar are the links to the websites pages (home, books, and contact us). To allow a good user experience of the site, the Bully Book Club text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+
+  * A footer which contains social media icon links to instagram and goodreads. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
+
+* Home Page.
+  * Carousel Section.
+  The carousel shows photographs of the members of Bully Book Club.
+  * About Us Section.
+  This section is broken down into four subsections and gives users some information on the book club. On large screens the subsections are laid out in a row, however on mobile devices the subsections are stacked vertically.
+  * Join Us Section.
+  This section gives the user more information on how they can join in with the book club.
+
+* Books Page. The navigation link for books is a drop down menu with the following sections:
+  * Currently Reading.
+  This takes the user to the card of the book the book club is currently reading.
+  * Reading Next.
+  This takes the user to the card of the book the book club will be reading next.
+  * Yearly Sections.
+  This takes the user to the section of the year they have chosen. There are currently 3 years to select from.
+  The books page implements a return to top icon which allows users to return to the navigation menu easily from any point as they scroll down the page.
+
+* Contact Us Page.
+  * A List of reasons users may want to contact the book club.
+  * Form
+  The form contains fields for the users name, email address, instagram handle, checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+
+* Thank You Page.
+  * A message thanks the user for submitting the form and lets them know someone will be in touch soon.
+  * Image and message from Harrison Ford, Dictator of the Bully Bookclub.
+
+* Future Implementations.
+  * Use javascript to perform return to top function on books page.
+  * Use javascript and listeners to require at least one checkbox to be checked before submitting the form on contact us page.
+  * A meet the members page - This would have a photo of the member together with a small bio. A link to their instagram and/or goodreads page.
+  * Competitions/giveaways page - This page would give further information/rules on the competitions and giveaways the book club hosts.
+
 - - -
 
 ## Technologies Used
@@ -211,7 +251,7 @@ The following issues were pointed out during my mid project meeting with my ment
 
 4. The textarea required attribute wasn't activating when the form was submitted. After searching for an answer, I asked on slack and Dave Horrocks spotted that as I had a message in the textarea it was reading that as a message had been entered in the textarea. By adding the message into a placeholder the issue has been rectified.
 
-5. When viewing the books page which is very long, you would have to scroll all the way back up to the top to reach any navigation links. I thought a scroll to top button that floats on the bottom right would fix this problem, however I do not have any javascript knowledge currently to be able to achieve this. One alternative suggested by Dave Horrocks on slack was to change the top navbar to be fixed to the top, so this would be visable at all times. By adding the bootstrap class fixed-top I was able to achieve this. Then Dave suggested that I could use an anchor with an ID to achieve something that would work to achieve a scroll to top. He shared a codepen on slack showing how this would work I used the example of the codepen to create my return to top.
+5. When viewing the books page which is very long, you would have to scroll all the way back up to the top to reach any navigation links. I thought a scroll to top button that floats on the bottom right would fix this problem, however I do not have any javascript knowledge currently to be able to achieve this. One alternative suggested by Dave Horrocks on slack was to change the top navbar to be fixed to the top, so this would be visable at all times. By adding the bootstrap class fixed-top I was able to achieve this. Then Dave suggested that I could use an anchor with an ID to achieve something that would work to achieve a scroll to top. He shared a codepen on slack showing how this would work I used the example of the codepen to create my return to top, and removed the fixed top class from my navigation bar to allow more space to view the books information.
 
 6. When I removed the fixed-top from my navbars there was a gap between the navbar and the top of the page. I added a class of navbar-top to the navbar and used CSS to positon the navbar to the top and left of the page. I added the width of 100% so the navbar would fill the width of the page.
 

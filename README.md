@@ -181,19 +181,19 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-Bootstrap Version 4.6 - The framework for the website. Additional CSS styling was also implemented in style.css
+Bootstrap Version 4.6 - The framework for the website. Additional CSS styling was also implemented in style.css.
 
 Google Fonts - To import the fonts used on the website.
 
-Font Awesome - For the iconograpgy on the website.
+Font Awesome - For the iconography on the website.
 
-Google Dev Tools - To find the correct code for the selected feature.
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 [Tiny PNG](https://tinypng.com/) To compress images.
 
 [Birme](https://www.birme.net/) To resize images.
 
-[Favicon.io](https://favicon.io/) To create favicon
+[Favicon.io](https://favicon.io/) To create favicon.
 
 - - -
 
@@ -212,13 +212,21 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 ### How to Fork
 
+To fork the milestone-project-one-ci repository:
+
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, milestone-project-one-ci.
+2. Go to the repository for this project, kera-cudmore/milestone-project-one-ci.
 3. Click the Fork button in the top right corner.
 
 ### How to Clone
 
-List how to clone the project on github here step by step.
+To clone the milestone-project-one-ci repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, kera-cudmore/milestone-project-one-ci.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory. 
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter. 
 
 - - -
 

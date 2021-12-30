@@ -2,7 +2,7 @@
 
 The Bully Book Club website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about the book club.
 
-![Bully Book Club Website shown on a range of devices](assets/docs/BullyBookClubWebsite.png)
+![Bully Book Club Website shown on a range of devices](assets/docs/bullybookclubwebsite.png)
 
 [View Bully Book Club on Github Pages](https://kera-cudmore.github.io/milestone-project-one-ci/)
 

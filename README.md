@@ -225,16 +225,16 @@ To clone the milestone-project-one-ci repository:
 1. Log in (or sign up) to GitHub.
 2. Go to the repository for this project, kera-cudmore/milestone-project-one-ci.
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory. 
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter. 
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 - - -
 
 ## Testing
 
-Testing was ongoing throughout the entire build. I utilised the developer tools while building to pinpoint any issues as I went along.
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-The following issues were pointed out during my mid project meeting with my mentor:
+The following issues were raised during my mid project meeting with my mentor:
 
 * The Join Us section on the home page was not in alignment with the rest of the page. ~ Padding has now been added to bring it in alignment with the rest of the pages padding.
 * There was an issue on smaller devices where the book columns were not displaying properly. ~ more information under issue 2 in solved bugs.
@@ -243,7 +243,13 @@ The following issues were pointed out during my mid project meeting with my ment
 
 ### W3C Validator
 
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
 ### Testing User Stories
+
+* First Time Visitors
+* Returning Visitors
+* Frequent Visitors
 
 ### Full Testing
 

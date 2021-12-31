@@ -254,11 +254,22 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ### Testing User Stories
 
 * First Time Visitors
+  * I want to find out what is Bully Book Club and how I can take part.
+  The about us and join us sections of the home page answer some common questions and explain how to take part.
+  * I want to be able to navigate the site easily to find information.
+  All site navigation is in the top navigation bar, which consistantly appears on all pages of the site. As you are able to scroll for a long time on the book page, a return to top has been added to make it easy for users to return to the navigation menu.
+  * I want to be able to find their Instagram profile.  
+    The instagram icon and link for Bully Book Club is presented on each page in the footer. This opens a new browser window to instagram for a good user experience.
 
 * Returning Visitors
+  * I want to find up to date information on what the book club is reading.
+  In the navigation menu there is are links to take you directly to what the book club is currently reading and what they will be reading next. The books also display a badge showing that this book is the current read and reading next.
+  * I want to be able to easily contact the book club with questions I might have.
+  A contact us page provides a form that users can fill in to contact the book club with any questions they might have. The use of a text area input allows the user to ask their specific question.
 
 * Frequent Visitors
-
+  * I want to be able to recommend a book for the book club to read.
+  The contact us page allows users to select a checkbox for book recommendations. They are then able to add the books information into the text area.
 
 ### Full Testing
 

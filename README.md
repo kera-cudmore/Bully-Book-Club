@@ -245,11 +245,20 @@ The following issues were raised during my mid project meeting with my mentor:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
+* [Index Page HTML](assets/docs/testing/w3c-index.png)
+* [Books Page HTML](assets/docs/testing/w3c-books.png)
+* [Contact Us Page HTML](assets/docs/testing/w3c-contact.png)
+* [Thank You Page HTML]
+* [style.css CSS]
+
 ### Testing User Stories
 
 * First Time Visitors
+
 * Returning Visitors
+
 * Frequent Visitors
+
 
 ### Full Testing
 

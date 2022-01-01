@@ -299,11 +299,15 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Index Page
 
-![Lighthouse Testing for Desktop](assets/docs/testing/index-desktop-lighthouse.png)
+![Lighthouse Testing for Desktop Index Page](assets/docs/testing/index-desktop-lighthouse.png)
 
-The above image shows the testing for the index page on desktops. I am very happy with these results.
+The above image shows the testing for the index page on desktops.
 
 #### Books Page
+
+![Lighthouse Testing for Desktop Books Page](assets/docs/testing/books-desktop-lighthouse.png)
+
+The above image shows the testing for the books page on desktops. 
 
 #### Contact Us Page
 

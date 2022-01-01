@@ -319,13 +319,29 @@ The above image shows the testing for the contact us page on desktops.
 
 The above image shows the testing for the contact us page on mobile devices.
 
-##### Performance 
+##### Performance
 
 Lighthouse suggested the following opportunities:
-* Properly sized images to improve load time.
-* Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. This is something that I will be doing some further research on and could implement at a later date.
 
-Accessibility: 
+* Properly sized images to improve load time.
+* Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
+  * This is something that I will be doing some further research on and could possibly implement at a later date.
+
+##### Accessibility
+
+Lighthouse suggested the following:
+
+* There is not a sufficient contrast on the small tag underneath the email input.
+  * I have targeted the text-muted class and changed the color of the text in order to improve the contrast.
+
+##### Best Practices
+
+I am happy with the result of this testing.
+
+##### SEO
+
+I am happy with the result of this testing. I would like to devote some further study time into SEO's to understand them better for future projects.
+
 #### Thank You Page
 
 - - -

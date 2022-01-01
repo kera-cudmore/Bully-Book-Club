@@ -319,12 +319,13 @@ The above image shows the testing for the contact us page on desktops.
 
 The above image shows the testing for the contact us page on mobile devices.
 
-Lighthouse suggested the following opportunities under performance:
+##### Performance 
 
+Lighthouse suggested the following opportunities:
 * Properly sized images to improve load time.
-
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. This is something that I will be doing some further research on and could implement at a later date.
 
+Accessibility: 
 #### Thank You Page
 
 - - -

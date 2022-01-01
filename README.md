@@ -295,7 +295,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website. 
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
 
 #### Index Page
 
@@ -307,9 +307,13 @@ The above image shows the testing for the index page on desktops.
 
 ![Lighthouse Testing for Desktop Books Page](assets/docs/testing/books-desktop-lighthouse.png)
 
-The above image shows the testing for the books page on desktops. 
+The above image shows the testing for the books page on desktops.
 
 #### Contact Us Page
+
+![Lighthouse Testing for Desktop Contact Us Page](assets/docs/testing/contact-desktop-lighthouse.png)
+
+The above image shows the testing for the contact us page on desktops. 
 
 #### Thank You Page
 

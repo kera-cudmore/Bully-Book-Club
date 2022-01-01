@@ -327,6 +327,12 @@ li {
   content: "📚  ";
 }
 
+/* change colour to improve contrast */
+.text-muted {
+  color: #2a2929!important;
+
+}
+
 /*change the background colour on the instagram handle input */
 .input-group-text {
   background-color: #d6b6ff;

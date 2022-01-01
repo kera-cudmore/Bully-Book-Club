@@ -30,11 +30,9 @@ The Bully Book Club website is designed to be responsive website allowing visito
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
-  * [Testing User Stories](#Testing-User-Stories)
-  * [Full Testing](#Full-Testing)
-  * [Further Testing](#Further-Testing)
   * [Solved Bugs](#Solved-Bugs)
   * [Known Bugs](#Known-Bugs)
+  * [Testing User Stories](#Testing-User-Stories)
   * [Lighthouse](#Lighthouse)
     * [Performance](#Performance)
     * [Accessibility](#Accessibility)
@@ -253,30 +251,6 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Thank You Page HTML]
 * [style.css CSS]
 
-### Testing User Stories
-
-* First Time Visitors
-  * I want to find out what is Bully Book Club and how I can take part.
-  The about us and join us sections of the home page answer some common questions and explain how to take part.
-  * I want to be able to navigate the site easily to find information.
-  All site navigation is in the top navigation bar, which consistantly appears on all pages of the site. As you are able to scroll for a long time on the book page, a return to top has been added to make it easy for users to return to the navigation menu.
-  * I want to be able to find their Instagram profile.  
-    The instagram icon and link for Bully Book Club is presented on each page in the footer. This opens a new browser window to instagram for a good user experience.
-
-* Returning Visitors
-  * I want to find up to date information on what the book club is reading.
-  In the navigation menu there is are links to take you directly to what the book club is currently reading and what they will be reading next. The books also display a badge showing that this book is the current read and reading next.
-  * I want to be able to easily contact the book club with questions I might have.
-  A contact us page provides a form that users can fill in to contact the book club with any questions they might have. The use of a text area input allows the user to ask their specific question.
-
-* Frequent Visitors
-  * I want to be able to recommend a book for the book club to read.
-  The contact us page allows users to select a checkbox for book recommendations. They are then able to add the books information into the text area.
-
-### Full Testing
-
-### Further Testing
-
 ### Solved Bugs
 
 1. The navbar would lose its alignment when on smaller devices, with the navbar brand pushing the burger icon down and over to the left underneath the site logo. This did not make for a good user experience, as the sites navigation for other sizes is on the right hand side of the navbar. While searching through the bootstrap documentation for navigation bars it directed me to display properties and hiding elements. Once I added the correct class I was then able to hide the navbar brand on devices smaller than a tablet, allowing the alignment of the navbar items to stay in place where I wanted them.
@@ -298,6 +272,26 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ### Known Bugs
 
 1. Users are able to submit the contact us form without selecting any of the checkboxes. I would have preferred it so that at least one checkbox was selected before the form could be submitted, however when researching this problem I was unable to find a way to achieve this without the use of javascript. I asked on slack whether there was a way to achieve this, it was suggested that I could change the checkboxes to radios, however I wanted users to be able to select more than one option if they needed so this solution wouldn't work. The community confirmed that they only way they could think on to achieve this with checkboxes would be through the use of javascript and change listeners on the checkboxes. As I do not have any experience so far with javascript this is something I am currently unable to implement, but would like to add to the website in a future update.
+
+### Testing User Stories
+
+* First Time Visitors
+  * I want to find out what is Bully Book Club and how I can take part.
+  The about us and join us sections of the home page answer some common questions and explain how to take part.
+  * I want to be able to navigate the site easily to find information.
+  All site navigation is in the top navigation bar, which consistantly appears on all pages of the site. As you are able to scroll for a long time on the book page, a return to top has been added to make it easy for users to return to the navigation menu.
+  * I want to be able to find their Instagram profile.  
+    The instagram icon and link for Bully Book Club is presented on each page in the footer. This opens a new browser window to instagram for a good user experience.
+
+* Returning Visitors
+  * I want to find up to date information on what the book club is reading.
+  In the navigation menu there is are links to take you directly to what the book club is currently reading and what they will be reading next. The books also display a badge showing that this book is the current read and reading next.
+  * I want to be able to easily contact the book club with questions I might have.
+  A contact us page provides a form that users can fill in to contact the book club with any questions they might have. The use of a text area input allows the user to ask their specific question.
+
+* Frequent Visitors
+  * I want to be able to recommend a book for the book club to read.
+  The contact us page allows users to select a checkbox for book recommendations. They are then able to add the books information into the text area.
 
 ### Lighthouse
 

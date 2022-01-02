@@ -329,7 +329,7 @@ li {
 
 /* change colour to improve contrast */
 .text-muted {
-  color: #2a2929!important;
+  color: #2a2929 !important;
 
 }
 
@@ -373,6 +373,7 @@ li {
 }
 
 /* THANK YOU PAGE*/
+/* added width to prevent the image overflowing on small devices */
 #HFB {
   width: 50%;
 }

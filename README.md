@@ -303,25 +303,18 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Index Page
 
-![Lighthouse Testing for Desktop Index Page](assets/docs/testing/index-desktop-lighthouse.png)
-
-The above image shows the testing for the index page on desktops.
+[Lighthouse Testing for Desktop Index Page](assets/docs/testing/index-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Index Page]()
 
 #### Books Page
 
-![Lighthouse Testing for Desktop Books Page](assets/docs/testing/books-desktop-lighthouse.png)
-
-The above image shows the testing for the books page on desktops.
+[Lighthouse Testing for Desktop Books Page](assets/docs/testing/books-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Books Page]()
 
 #### Contact Us Page
 
-![Lighthouse Testing for Desktop Contact Us Page](assets/docs/testing/contact-desktop-lighthouse.png)
-
-The above image shows the testing for the contact us page on desktops.
-
-![Lighthouse Testing for Mobile Contact Us Page](assets/docs/testing/contact-mobile-lighthouse.png)
-
-The above image shows the testing for the contact us page on mobile devices.
+[Lighthouse Testing for Desktop Contact Us Page](assets/docs/testing/contact-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Contact Us Page](assets/docs/testing/contact-mobile-lighthouse.png)
 
 ##### Performance
 
@@ -347,6 +340,9 @@ I am happy with the result of this testing.
 I am happy with the result of this testing. I would like to devote some further study time into SEO's to understand them better for future projects.
 
 #### Thank You Page
+
+[Lighthouse Testing for Desktop Thank You Page](assets/docs/testing/thankyou-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Thank You Page](assets/docs/testing/thankyou-mobile-lighthouse.png)
 
 - - -
 

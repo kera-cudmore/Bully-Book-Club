@@ -336,7 +336,7 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * This is something that I will be doing some further research on and could possibly implement at a later date.
+  * I have converted the images to webp format using Birme.
 
 #### Books Page
 
@@ -347,7 +347,7 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * This is something that I will be doing some further research on and could possibly implement at a later date.
+  * I have converted the images to webp format using Birme.
 
 #### Contact Us Page
 
@@ -358,7 +358,7 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * This is something that I will be doing some further research on and could possibly implement at a later date.
+  * I have converted the images to webp format using Birme.
 
 Accessibility - Lighthouse suggested the following:
 
@@ -374,7 +374,7 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * This is something that I will be doing some further research on and could possibly implement at a later date.
+  * I have converted the images to webp format using Birme.
   
 - - -
 

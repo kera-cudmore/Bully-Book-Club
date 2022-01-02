@@ -248,7 +248,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Index Page HTML](assets/docs/testing/w3c-index.png)
 * [Books Page HTML](assets/docs/testing/w3c-books.png)
 * [Contact Us Page HTML](assets/docs/testing/w3c-contact.png)
-* [Thank You Page HTML]
+* [Thank You Page HTML](assets/docs/testing/w3c-thankyou-test.png)
 * [style.css CSS](assets/docs/testing/w3c-css-test.png)
 
 ### Solved Bugs

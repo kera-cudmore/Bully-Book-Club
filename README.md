@@ -2,7 +2,7 @@
 
 The Bully Book Club website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about the book club.
 
-![Bully Book Club Website shown on a range of devices](assets/docs/bullybookclubwebsite.png)
+![Bully Book Club Website shown on a range of devices](docs/bullybookclubwebsite.png)
 
 [View Bully Book Club on Github Pages](https://kera-cudmore.github.io/milestone-project-one-ci/)
 
@@ -93,7 +93,7 @@ Due to a recent growth in membership and personal commitments, the owner of bull
 
 ### Colour Scheme
 
-![Bully Book Club Website Colour Palette](assets/docs/colour-palette.png)
+![Bully Book Club Website Colour Palette](docs/colour-palette.png)
 
 The website uses a palette of pastel colours that are often used in the Bully Book Club logo images. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
@@ -115,11 +115,11 @@ The member images were used with the permission of their owners. All book covers
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page Wireframe](assets/docs/wireframes/home-page-wireframe.png)
+[Home Page Wireframe](docs/wireframes/home-page-wireframe.png)
 
-[Books Wireframe](assets/docs/wireframes/books-wireframe.png)
+[Books Wireframe](docs/wireframes/books-wireframe.png)
 
-[Contact Us Wireframe](assets/docs/wireframes/contact-us-wireframe.png)
+[Contact Us Wireframe](docs/wireframes/contact-us-wireframe.png)
 
 ### Features
 
@@ -245,11 +245,11 @@ The following issues were raised during my mid project meeting with my mentor:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index Page HTML](assets/docs/testing/w3c-index.png)
-* [Books Page HTML](assets/docs/testing/w3c-books.png)
-* [Contact Us Page HTML](assets/docs/testing/w3c-contact.png)
-* [Thank You Page HTML](assets/docs/testing/w3c-thankyou-test.png)
-* [style.css CSS](assets/docs/testing/w3c-css-test.png)
+* [Index Page HTML](docs/testing/w3c-index.png)
+* [Books Page HTML](docs/testing/w3c-books.png)
+* [Contact Us Page HTML](docs/testing/w3c-contact.png)
+* [Thank You Page HTML](docs/testing/w3c-thankyou-test.png)
+* [style.css CSS](docs/testing/w3c-css-test.png)
 
 ### Solved Bugs
 
@@ -257,7 +257,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 2. The cards on the books page were very long when on smaller devices, causing the user to scroll for a while before seeing the next book. By using a media query to hide the card body I am able to condense the card for a better viewing experience on smaller devices.
 
-3. Halfway down the books page on small devices the columns would jump from displaying one column to displating two colums. After trying several ways to change this with no effect, I posed the problem to the slack community. Simen Daehlin suggested that I specify on the column class what sizes I would use for the screen sizes. By adding these column size classes it has resolved the problem. ![Column Issue](assets/docs/column-issue.gif)
+3. Halfway down the books page on small devices the columns would jump from displaying one column to displating two colums. After trying several ways to change this with no effect, I posed the problem to the slack community. Simen Daehlin suggested that I specify on the column class what sizes I would use for the screen sizes. By adding these column size classes it has resolved the problem. ![Column Issue](docs/column-issue.gif)
 
 4. The textarea required attribute wasn't activating when the form was submitted. After searching for an answer, I asked on slack and Dave Horrocks spotted that as I had a message in the textarea it was reading that as a message had been entered in the textarea. By adding the message into a placeholder the issue has been rectified.
 
@@ -303,8 +303,8 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Index Page
 
-[Lighthouse Testing for Desktop Index Page](assets/docs/testing/index-desktop-lighthouse.png)
-[Lighthouse Testing for Mobile Index Page](assets/docs/testing/index-mobile-lighthouse.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/index-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Index Page](docs/testing/index-mobile-lighthouse.png)
 
 Performance - Lighthouse suggested the following:
 
@@ -314,8 +314,8 @@ Performance - Lighthouse suggested the following:
 
 #### Books Page
 
-[Lighthouse Testing for Desktop Books Page](assets/docs/testing/books-desktop-lighthouse.png)
-[Lighthouse Testing for Mobile Books Page](assets/docs/testing/books-mobile-lighthouse.png)
+[Lighthouse Testing for Desktop Books Page](docs/testing/books-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Books Page](docs/testing/books-mobile-lighthouse.png)
 
 Performance - Lighthouse suggested the following:
 
@@ -325,8 +325,8 @@ Performance - Lighthouse suggested the following:
 
 #### Contact Us Page
 
-[Lighthouse Testing for Desktop Contact Us Page](assets/docs/testing/contact-desktop-lighthouse.png)
-[Lighthouse Testing for Mobile Contact Us Page](assets/docs/testing/contact-mobile-lighthouse.png)
+[Lighthouse Testing for Desktop Contact Us Page](docs/testing/contact-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Contact Us Page](docs/testing/contact-mobile-lighthouse.png)
 
 Performance - Lighthouse suggested the following:
 
@@ -341,8 +341,8 @@ Accessibility - Lighthouse suggested the following:
 
 #### Thank You Page
 
-[Lighthouse Testing for Desktop Thank You Page](assets/docs/testing/thankyou-desktop-lighthouse.png)
-[Lighthouse Testing for Mobile Thank You Page](assets/docs/testing/thankyou-mobile-lighthouse.png)
+[Lighthouse Testing for Desktop Thank You Page](docs/testing/thankyou-desktop-lighthouse.png)
+[Lighthouse Testing for Mobile Thank You Page](docs/testing/thankyou-mobile-lighthouse.png)
 
 Performance - Lighthouse suggested the following:
 

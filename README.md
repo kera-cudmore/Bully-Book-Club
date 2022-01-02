@@ -195,7 +195,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Tiny PNG](https://tinypng.com/) To compress images.
 
-[Birme](https://www.birme.net/) To resize images.
+[Birme](https://www.birme.net/) To resize images and change to webp format.
 
 [Favicon.io](https://favicon.io/) To create favicon.
 

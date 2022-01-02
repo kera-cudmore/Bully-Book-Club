@@ -290,31 +290,38 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * First Time Visitors
   * I want to find out what is Bully Book Club and how I can take part.
   The about us and join us sections of the home page answer some common questions and explain how to take part.
+
   ![About us and join us section of website](docs/testing/userstories1.png)
 
   * I want to be able to navigate the site easily to find information.
   All site navigation is in the top navigation bar, which consistantly appears on all pages of the site. As you are able to scroll for a long time on the book page, a return to top has been added to make it easy for users to return to the navigation menu.
+
   ![navigation menu](docs/testing/userstories2.png)
   ![return to top](docs/testing/userstories3.png)
 
   * I want to be able to find their Instagram profile.  
     The instagram icon and link for Bully Book Club is presented on each page in the footer. This opens a new browser window to instagram for a good user experience.
+
     ![footer with instagram icon](docs/testing/userstories4.png)
 
 * Returning Visitors
   * I want to find up to date information on what the book club is reading.
   In the navigation menu there is are links to take you directly to what the book club is currently reading and what they will be reading next. The books also display a badge showing that this book is the current read and reading next.
-  
+
   ![Books navigation drop down menu](docs/testing/userstories5.png)
   ![Books currently reading badge](docs/testing/userstories6.png)
   ![Books reading next badge](docs/testing/userstories7.png)
 
   * I want to be able to easily contact the book club with questions I might have.
-  A contact us page provides a form that users can fill in to contact the book club with any questions they might have. The use of a text area input allows the user to ask their specific question.
+  A contact us page provides a form that users can fill in to contact the book club with any questions they might have. The use of a text area input allows the user to ask their specific question. The footer also contains an envelope icon which users can click to go to the contact us form from any page.
+
+  ![Contact us form and envelope icon in footer](docs/testing/userstories8.png)
 
 * Frequent Visitors
   * I want to be able to recommend a book for the book club to read.
   The contact us page allows users to select a checkbox for book recommendations. They are then able to add the books information into the text area.
+
+  ![checkboxes on contact us form](docs/testing/userstories9.png)
 
 ### Lighthouse
 

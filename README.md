@@ -304,8 +304,14 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 #### Index Page
 
 [Lighthouse Testing for Desktop Index Page](assets/docs/testing/index-desktop-lighthouse.png)
-[Lighthouse Testing for Mobile Index Page]()
+[Lighthouse Testing for Mobile Index Page](assets/docs/testing/index-mobile-lighthouse.png)
 
+Performance - Lighthouse suggested the following:
+
+* Properly sized images to improve load time.
+* Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
+  * This is something that I will be doing some further research on and could possibly implement at a later date.
+  
 #### Books Page
 
 [Lighthouse Testing for Desktop Books Page](assets/docs/testing/books-desktop-lighthouse.png)

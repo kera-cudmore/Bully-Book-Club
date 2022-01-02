@@ -271,6 +271,8 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 9. When I asked for peer review on slack Anthony O'Brien pointed out that I was missing the container for the join us section on the home page. I had already added the css to style this section but had missed out putting the container class into the HTML. I have now added the container class to this section.
 
+10. The thank you page on small mobile devices was not displaying correctly as the image was off to one side and the navbar and footer did not reach across the page width. After struggling with this for a few days I reached out to Anthony O'Brien to see if he could point me in the right direction to solve this issue. He told me that it was simply an overflow issue and that by reducing the width of the image it would solve the issue. I have added an id to the issue and targeted the width to be 50% in the css.
+
 ### Known Bugs
 
 1. Users are able to submit the contact us form without selecting any of the checkboxes. I would have preferred it so that at least one checkbox was selected before the form could be submitted, however when researching this problem I was unable to find a way to achieve this without the use of javascript. I asked on slack whether there was a way to achieve this, it was suggested that I could change the checkboxes to radios, however I wanted users to be able to select more than one option if they needed so this solution wouldn't work. The community confirmed that they only way they could think on to achieve this with checkboxes would be through the use of javascript and change listeners on the checkboxes. As I do not have any experience so far with javascript this is something I am currently unable to implement, but would like to add to the website in a future update.
@@ -429,4 +431,4 @@ I would like to acknowledge the following people who helped me along the way in 
 * [Abi Harrison](https://github.com/Abibubble) - For her webinar on meta tags.
 * [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue.
 * [Dave Horrocks](https://github.com/daveyjh) - For his help with the textarea required issue & the return to top on books page.
-* [Anthony O'Brien](https://github.com/auxfuse) - For pointing out my missing join us container on the index page.
+* [Anthony O'Brien](https://github.com/auxfuse) - For pointing out my missing join us container on the index page & helping me solve the issue of the thank you page overflow.

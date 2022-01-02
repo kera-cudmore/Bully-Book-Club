@@ -40,10 +40,10 @@ The Bully Book Club website is designed to be responsive website allowing visito
   * [Known Bugs](#Known-Bugs)
   * [Testing User Stories](#Testing-User-Stories)
   * [Lighthouse](#Lighthouse)
-    * [Performance](#Performance)
-    * [Accessibility](#Accessibility)
-    * [Best Practices](#Best-Practices)
-    * [SEO](#SEO)
+    * [Index Page](#Index-Page)
+    * [Books Page](#Books-Page)
+    * [Contact Us Page](#Contact-Us-Page)
+    * [Thank You Page](#Thank-You-Page)
   
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
@@ -336,7 +336,6 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the images to webp format using Birme.
 
 #### Books Page
 
@@ -347,7 +346,7 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the images to webp format using Birme.
+  * I have converted the book cover images to webp format using Birme.
 
 #### Contact Us Page
 
@@ -358,7 +357,6 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the images to webp format using Birme.
 
 Accessibility - Lighthouse suggested the following:
 

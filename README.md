@@ -358,7 +358,7 @@ Performance - Lighthouse suggested the following:
 
 * Properly sized images to improve load time.
 * Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the logo to webp format using Birme. 
+  * I have converted the logo to webp format using Birme.
 
 Accessibility - Lighthouse suggested the following:
 

@@ -206,9 +206,10 @@ p {
 }
 
 /* adding padding to the layout of the cards on books page */
-div.col-12.col-lg-3 {
+div.col-12.col-lg-6 {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
+  margin-bottom: 0.938rem;
 }
 
 /* adding padding the the join us section on home page and aligning the text */

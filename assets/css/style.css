@@ -205,6 +205,7 @@ p {
   padding-bottom: 6.25rem;
 }
 
+/* Adding padding to the error container */
 .error-container {
   padding-top: 1.25rem;
   padding-bottom: 6.25rem;

@@ -337,7 +337,6 @@ li {
 /* change colour to improve contrast */
 .text-muted {
   color: #2a2929 !important;
-
 }
 
 /*change the background colour on the instagram handle input */
@@ -350,6 +349,9 @@ li {
   padding-left: 0.938rem;
 }
 
+textarea {
+  resize: none;
+}
 /* change the colour of the submit button */
 .btn {
   display: flex;

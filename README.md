@@ -4,7 +4,7 @@ The Bully Book Club website is designed to be responsive website allowing visito
 
 ![Bully Book Club Website shown on a range of devices](assets/images/bullybookclubwebsite.png)
 
-[View Bully Book Club on Github Pages](https://kera-cudmore.github.io/milestone-project-one-ci/)
+[View Bully Book Club on Github Pages](https://kera-cudmore.github.io/Bully-Book-Club/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/bully-book-club?color=red)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/bully-book-club?color=orange)

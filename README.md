@@ -333,18 +333,20 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Index Page
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/index-desktop-lighthouse.png)
-[Lighthouse Testing for Mobile Index Page](docs/testing/index-mobile-lighthouse.png)
+Initial lighthouse testing :
+[Lighthouse Testing for Desktop Index Page - Test 1](docs/testing/index-desktop-lighthouse.png) ~
+[Lighthouse Testing for Mobile Index Page - Test 1](docs/testing/index-mobile-lighthouse.png)
 
-Performance - Lighthouse suggested the following:
+Suggestions - serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have now converted the logo and slide images to webp format using Birme.
 
-* Properly sized images to improve load time.
-* Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the logo to webp format using Birme.
+Final lighthouse testing:
+
+![Final Lighthouse Testing for Desktop Index Page](docs/testing/indexdesktoplighthouse2.png)
+![Final Lighthouse Testing for Mobile Index Page](docs/testing/indexmobile2.png)
 
 #### Books Page
 
-[Lighthouse Testing for Desktop Books Page](docs/testing/books-desktop-lighthouse.png)
+[Lighthouse Testing for Desktop Books Page](docs/testing/books-desktop-lighthouse.png) ~
 [Lighthouse Testing for Mobile Books Page](docs/testing/books-mobile-lighthouse.png)
 
 Performance - Lighthouse suggested the following:
@@ -355,7 +357,7 @@ Performance - Lighthouse suggested the following:
 
 #### Contact Us Page
 
-[Lighthouse Testing for Desktop Contact Us Page](docs/testing/contact-desktop-lighthouse.png)
+[Lighthouse Testing for Desktop Contact Us Page](docs/testing/contact-desktop-lighthouse.png) ~
 [Lighthouse Testing for Mobile Contact Us Page](docs/testing/contact-mobile-lighthouse.png)
 
 Performance - Lighthouse suggested the following:
@@ -371,7 +373,7 @@ Accessibility - Lighthouse suggested the following:
 
 #### Thank You Page
 
-[Lighthouse Testing for Desktop Thank You Page](docs/testing/thankyou-desktop-lighthouse.png)
+[Lighthouse Testing for Desktop Thank You Page](docs/testing/thankyou-desktop-lighthouse.png) ~
 [Lighthouse Testing for Mobile Thank You Page](docs/testing/thankyou-mobile-lighthouse.png)
 
 Performance - Lighthouse suggested the following:

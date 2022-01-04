@@ -337,7 +337,9 @@ Initial lighthouse testing :
 [Lighthouse Testing for Desktop Index Page - Test 1](docs/testing/index-desktop-lighthouse.png) ~
 [Lighthouse Testing for Mobile Index Page - Test 1](docs/testing/index-mobile-lighthouse.png)
 
-Suggestions - serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have now converted the logo and slide images to webp format using Birme.
+Suggestions:
+
+1. serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have now converted the logo and slide images to webp format using Birme.
 
 Final lighthouse testing:
 
@@ -346,42 +348,43 @@ Final lighthouse testing:
 
 #### Books Page
 
+Initial lighthouse testing:
 [Lighthouse Testing for Desktop Books Page](docs/testing/books-desktop-lighthouse.png) ~
 [Lighthouse Testing for Mobile Books Page](docs/testing/books-mobile-lighthouse.png)
 
-Performance - Lighthouse suggested the following:
+Suggestions:
 
-* Properly sized images to improve load time.
-* Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the book cover images and logo to webp format using Birme.
+1. Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have converted the book cover images and logo to webp format using Birme.
+
+2. Properly sized images to improve load time.
+
+Final lighthouse testing:
 
 #### Contact Us Page
 
+Initial lighthouse testing:
 [Lighthouse Testing for Desktop Contact Us Page](docs/testing/contact-desktop-lighthouse.png) ~
 [Lighthouse Testing for Mobile Contact Us Page](docs/testing/contact-mobile-lighthouse.png)
 
-Performance - Lighthouse suggested the following:
+Suggestions:
 
-* Properly sized images to improve load time.
-* Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the logo to webp format using Birme.
+1. Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have converted the logo to webp format using Birme.
 
-Accessibility - Lighthouse suggested the following:
+2. There is not a sufficient contrast on the small tag underneath the email input. I have targeted the text-muted class and changed the color of the text in order to improve the contrast. By doing this I have improved the accessibility score to 100.
 
-* There is not a sufficient contrast on the small tag underneath the email input.
-  * I have targeted the text-muted class and changed the color of the text in order to improve the contrast. By doing this I have improved the accessibility score to 100.
+Final lighthouse testing:
 
 #### Thank You Page
 
+Initial lighthouse testing:
 [Lighthouse Testing for Desktop Thank You Page](docs/testing/thankyou-desktop-lighthouse.png) ~
 [Lighthouse Testing for Mobile Thank You Page](docs/testing/thankyou-mobile-lighthouse.png)
 
-Performance - Lighthouse suggested the following:
+Suggestions:
 
-* Properly sized images to improve load time.
-* Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption.
-  * I have converted the logo to webp format using Birme.
+1. Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have converted the logo to webp format using Birme.
   
+Final lighthouse testing:
 - - -
 
 ## Credits

@@ -261,6 +261,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Books Page HTML](docs/testing/w3c-books.png)
 * [Contact Us Page HTML](docs/testing/w3c-contact.png)
 * [Thank You Page HTML](docs/testing/w3c-thankyou-test.png)
+* [404 Page HTML]
 * [style.css CSS](docs/testing/w3c-css-test.png)
 
 ### Solved Bugs
@@ -370,9 +371,12 @@ Suggestions:
 
 1. Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have converted the logo to webp format using Birme.
 
-2. There is not a sufficient contrast on the small tag underneath the email input. I have targeted the text-muted class and changed the color of the text in order to improve the contrast. By doing this I have improved the accessibility score to 100.
+2. There is not a sufficient contrast on the small tag underneath the email input. I have targeted the text-muted class and changed the color of the text in order to improve the contrast.
 
 Final lighthouse testing:
+
+![Final Lighthouse Testing for Desktop Contact Us Page ](docs/testing/contactdesktop2.png)
+![Final Lighthouse Testing for Mobile Contact Us Page](docs/testing/contactmobile2.png)
 
 #### Thank You Page
 
@@ -385,6 +389,15 @@ Suggestions:
 1. Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have converted the logo to webp format using Birme.
   
 Final lighthouse testing:
+
+#### 404 Page
+
+Initial lighthouse testing:
+
+Suggestions:
+
+Final lighthouse testing:
+
 - - -
 
 ## Credits

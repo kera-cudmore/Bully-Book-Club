@@ -392,11 +392,10 @@ Final lighthouse testing:
 
 #### 404 Page
 
-Initial lighthouse testing:
+Lighthouse testing:
 
-Suggestions:
-
-Final lighthouse testing:
+![Lighthouse Testing for Desktop 404 Error Page](docs/testing/404desktop.png)
+![Lighthouse Testing for Moblie 404 Error Page](docs/testing/404mobile.png)
 
 - - -
 

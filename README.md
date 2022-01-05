@@ -44,6 +44,7 @@ The Bully Book Club website is designed to be responsive website allowing visito
     * [Books Page](#Books-Page)
     * [Contact Us Page](#Contact-Us-Page)
     * [Thank You Page](#Thank-You-Page)
+  * [Full Testing](#Full-Testing)
   
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
@@ -397,6 +398,27 @@ Lighthouse testing:
 
 ![Lighthouse Testing for Desktop 404 Error Page](docs/testing/lighthouse/404desktop.png)
 ![Lighthouse Testing for Moblie 404 Error Page](docs/testing/lighthouse/404mobile.png)
+
+### Full Testing
+
+To fully test my website I performed the following testing using a number of browsers (google chrome, safari) and devices (Macbook Pro 14 inch, iPhone 13 pro).
+
+Links.
+
+1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+2. Test each link on the books page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+3. Test each link on the contact us page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+4. Test each link on the thank you page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+5. Test each link on the 404 page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate tab.
+
+Contact Us Form.
+
+1. Test the contact us form. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. I filled out the name and email forms and tried to submit the form. The form worked correctly and asked the user to fill in the textarea field. I filled out the name, email and textarea field and tried to submit the form. The form then opens the thank you page in the same browser window.
+2. I tried to submit the form with only an email address - the form directs the user to fill in the name field. I filled out the name and email fields and tried to submit the form. The form then directs the user to fill out the textarea field. I filled in the name, email and textarea field and submitted the form. The form then opens the thank you page in the same browser window.
+3. I tried to submit the form with just the instagram username field filled in and the form directed me to fill in the name field. I filled in the name and instagram username fields and tried again to submit. The form asks the user to fill in the email field. I filled in the name, instagram username and email field and tried to submit. The form asks the user to fill in the textarea field. I filled out the name, instagram username, email and textarea fields and submitted the form. the form then opens the thank you page in the same browser window.
+4. I tried to submit the form with only the textarea field filled in. The form directs the user to fill in the name field. I filled in the name and textarea field and submitted the form. The form directs the user to fill in the email field. I filled in the name, email and textarea fields and submitted the form. The form then opens the thank you page in the same browser window.
+5. I selected one of the checkboxes and tried to submit the form. The form directs me to fill in the name field. I filled in the name field and the form directs the user to fill in the email field. I filled in the name and email fields and tried to submit the form. The form directs the user to fill in the textarea field. Once I filled in the name, email and textarea fields with a checkbox selected the form then opens the thank you page in the same browser window.
+6. I tried submitting the form without any information filled in. The form directs the user to fill in the name field. It then goes on to ask the user to complete the email and textarea fields if they are not filled out. The form can then be submitted and will open the thank you page in the same browser window.
 
 - - -
 

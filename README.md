@@ -121,11 +121,11 @@ The member images were used with the permission of their owners. All book covers
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page Wireframe](docs/wireframes/home-page-wireframe.png)
+[Home Page Wireframe](docs/wireframes/indexwireframe.png)
 
-[Books Wireframe](docs/wireframes/books-wireframe.png)
+[Books Wireframe](docs/wireframes/bookswireframe.png)
 
-[Contact Us Wireframe](docs/wireframes/contact-us-wireframe.png)
+[Contact Us Wireframe](docs/wireframes/contactuswireframe.png)
 
 ### Features
 
@@ -257,12 +257,12 @@ The Following items were brought up when I submitted my site to peer code review
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index Page HTML](docs/testing/w3c-index.png)
-* [Books Page HTML](docs/testing/w3c-books.png)
-* [Contact Us Page HTML](docs/testing/w3c-contact.png)
-* [Thank You Page HTML](docs/testing/w3c-thankyou-test.png)
-* [404 Page HTML](docs/testing/w3c404.png)
-* [style.css CSS](docs/testing/w3c-css-test.png)
+* [Index Page HTML](docs/testing/w3c/w3cindex.png)
+* [Books Page HTML](docs/testing/w3c/w3cbooks.png)
+* [Contact Us Page HTML](docs/testing/w3c/w3ccontact.png)
+* [Thank You Page HTML](docs/testing/w3c/w3cthankyou.png)
+* [404 Page HTML](docs/testing/w3c/w3c404.png)
+* [style.css CSS](docs/testing/w3c/w3ccss.png)
 
 ### Solved Bugs
 

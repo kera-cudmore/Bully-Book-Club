@@ -252,6 +252,7 @@ The following issues were raised during my mid project meeting with my mentor:
 The Following items were brought up when I submitted my site to peer code review on slack.
 
 * Andrew Dempsey suggested to change the layout of the about us section on the index page to make it two rows instead of one, as this would improve the flow of the page on larger screens. ~ I have moved the second two items into a second row and have added a margin bottom in the css to give the items a bit more breathing space.
+* Andrew also suggested it would look better if the contact us page inputs had a bit of room each side and were centred on the page, as they were rather long on larger screens. ~ I have adjusted the size of the input fields and centred these on the page for a better viewing experience.
 
 ### W3C Validator
 

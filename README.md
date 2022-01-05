@@ -213,7 +213,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, milestone-project-one-ci.
+2. Find the repository for this project, Bully-Book-Club.
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -221,18 +221,18 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 ### How to Fork
 
-To fork the milestone-project-one-ci repository:
+To fork the Bully-Book-Club repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, kera-cudmore/milestone-project-one-ci.
+2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
 3. Click the Fork button in the top right corner.
 
 ### How to Clone
 
-To clone the milestone-project-one-ci repository:
+To clone the Bully-Book-Club repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, kera-cudmore/milestone-project-one-ci.
+2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 
 /* GLOBAL STYLES */
-
 /* sets the background colour and the font family for the body of the website */
 body {
   background-color: #DAF7FB;
@@ -30,14 +29,7 @@ p {
   text-align: center;
 }
 
-/* Adds extra padding on the sides of the container*/
-.container-fluid {
-  padding-left: 1.875rem;
-  padding-right: 1.875rem;
-}
-
 /* NAVBAR */
-
 /* Additional padding added to the navbar to push in the navbar image and toggler */
 .navbar {
   padding: 0.75rem 1.5rem;
@@ -177,16 +169,13 @@ p {
   animation-iteration-count: 1;
 }
 
-/* CAROUSEL */
-
-@media only screen and (min-width: 1024px) {
-  .carousel-item img {
-    height: 85vh;
-    object-fit: contain;
-  }
+/* PADDING  */
+/* Adds extra padding on the sides of the container*/
+.container-fluid {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
 }
 
-/* PADDING  */
 /* Adding padding to the top and bottom of the about us section */
 .about-us-container {
   padding-top: 20px;
@@ -211,10 +200,12 @@ p {
   padding-bottom: 3.125rem;
 }
 
+/* adds padding to the error image container*/
 .error-img-container {
   padding-top: 1.25rem;
   padding-bottom: 6.25rem;
 }
+
 /* adding padding to the layout of the cards on books page */
 div.col-12.col-lg-6 {
   padding-left: 1.875rem;
@@ -235,6 +226,15 @@ div.col-12.col-lg-6 {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
   padding-bottom: 6.25rem;
+}
+
+/* CAROUSEL */
+/*to make the carousel images stay visable on larger screens without having to scroll*/
+@media only screen and (min-width: 1024px) {
+  .carousel-item img {
+    height: 85vh;
+    object-fit: contain;
+  }
 }
 
 /* CARDS */
@@ -353,9 +353,11 @@ li {
   padding-left: 0.938rem;
 }
 
+/* prevents the textarea from being resized with the grabber in bottom corner */
 textarea {
   resize: none;
 }
+
 /* change the colour of the submit button */
 .btn {
   display: flex;
@@ -408,7 +410,6 @@ textarea {
 }
 
 /* FOOTER */
-
 /* styling the footer colour, adding padding & aligning icons to center of containers */
 .footer-container {
   background-color: #E9DBFA;
@@ -427,7 +428,6 @@ footer i {
 /*centering the image*/
 .error-img {
   text-align: center;
-  width: 50%;
 }
 
 /* reducing image to 50% width to prevent overflow on smaller screens & rounding image corners */

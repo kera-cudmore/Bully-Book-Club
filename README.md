@@ -29,10 +29,11 @@ The Bully Book Club website is designed to be responsive website allowing visito
   * [Languages Used](#Languages-Used)
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
-* [Deployment](#Deployment)
-  * [Initial Deployment](#Initial-Deployment)
-  * [How to Fork](#How-to-Fork)
-  * [How to Clone](#How-to-Clone)
+* [Deployment & Local Development](#Deployment-&-Local-Development)
+  * [Deployment](#Deployment)
+  * [Local Development](#Local-Development)
+    * [How to Fork](#How-to-Fork)
+    * [How to Clone](#How-to-Clone)
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
@@ -206,9 +207,9 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 - - -
 
-## Deployment
+## Deployment & Local Development
 
-### Initial Deployment
+### Deployment
 
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
@@ -219,7 +220,9 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-### How to Fork
+### Local Development 
+
+#### How to Fork
 
 To fork the Bully-Book-Club repository:
 
@@ -227,7 +230,7 @@ To fork the Bully-Book-Club repository:
 2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
 3. Click the Fork button in the top right corner.
 
-### How to Clone
+#### How to Clone
 
 To clone the Bully-Book-Club repository:
 

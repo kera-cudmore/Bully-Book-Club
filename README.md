@@ -245,15 +245,15 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 The following issues were raised during my mid project meeting with my mentor:
 
-* The Join Us section on the home page was not in alignment with the rest of the page. ~ Padding has now been added to bring it in alignment with the rest of the pages padding.
-* There was an issue on smaller devices where the book columns were not displaying properly. ~ more information under issue 2 in solved bugs.
-* The introduction paragraph on the books page was not aligned in style with the rest of the page. ~ The text has now been centered.
+* The Join Us section on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
+* There was an issue on smaller devices where the book columns were not displaying properly. This issue is documented under issue 2 in solved bugs.
+* The introduction paragraph on the books page was not aligned in style with the rest of the page. The text has now been centered.
 * The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input and textarea.
 
 The Following items were brought up when I submitted my site to peer code review on slack.
 
-* Andrew Dempsey suggested to change the layout of the about us section on the index page to make it two rows instead of one, as this would improve the flow of the page on larger screens. ~ I have moved the second two items into a second row and have added a margin bottom in the css to give the items a bit more breathing space.
-* Andrew also suggested it would look better if the contact us page inputs had a bit of room each side and were centred on the page, as they were rather long on larger screens. ~ I have adjusted the size of the input fields and centred these on the page for a better viewing experience.
+* Andrew Dempsey suggested to change the layout of the about us section on the index page to make it two rows instead of one, as this would improve the flow of the page on larger screens. I have moved the second two items into a second row and have added a margin bottom in the css to give the items a bit more breathing space.
+* Andrew also suggested it would look better if the contact us page inputs had a bit of room each side and were centred on the page, as they were rather long on larger screens. I have adjusted the size of the input fields and centred these on the page for a better viewing experience.
 
 ### W3C Validator
 

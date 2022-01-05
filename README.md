@@ -506,3 +506,4 @@ I would like to acknowledge the following people who helped me along the way in 
 * [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue.
 * [Dave Horrocks](https://github.com/daveyjh) - For his help with the textarea required issue & the return to top on books page.
 * [Anthony O'Brien](https://github.com/auxfuse) - For pointing out my missing join us container on the index page & helping me solve the issue of the thank you page overflow.
+* [Andrew Dempsey](https://github.com/andrewdempsey2018) - For taking the time to respond to my peer code review request in slack.

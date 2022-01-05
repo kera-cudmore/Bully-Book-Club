@@ -407,7 +407,7 @@ Lighthouse testing:
 
 ### Full Testing
 
-To fully test my website I performed the following testing using a number of browsers (google chrome, safari) and devices (Macbook Pro 14 inch, iPhone 13 pro).
+To fully test my website I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox) and devices (Macbook Pro 14 inch, iPhone 13 pro).
 
 Links.
 

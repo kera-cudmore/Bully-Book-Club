@@ -220,7 +220,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-### Local Development 
+### Local Development
 
 #### How to Fork
 

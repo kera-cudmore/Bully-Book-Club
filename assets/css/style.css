@@ -175,31 +175,15 @@ p {
   padding-right: 1.875rem;
 }
 
-/* Adding padding to the top and bottom of the about us section */
-.about-us-container {
-  padding-top: 20px;
-  padding-bottom: 3.125rem;
-}
-
-/* Adding padding to the cards container */
-.card-container {
-  padding-top: 1.25rem;
-  padding-bottom: 6.25rem;
-}
-
-/* adding padding to the form container */
-.form-container {
-  padding-top: 1.25rem;
-  padding-bottom: 6.25rem;
-}
-
-/* Adding padding to the error container */
-.error-container {
+/* Adding padding to the top and bottom of containers */
+.about-us-container, .error-container {
   padding-top: 1.25rem;
   padding-bottom: 3.125rem;
 }
 
-/* adds padding to the error image container*/
+/* Adding padding to the container */
+.card-container,
+.form-container,
 .error-img-container {
   padding-top: 1.25rem;
   padding-bottom: 6.25rem;
@@ -213,15 +197,9 @@ div.col-12.col-lg-6 {
 }
 
 /* adding padding the the join us section on home page and aligning the text */
-.join-us {
+.join-us,
+.thank-you-container {
   text-align: center;
-  padding-left: 1.875rem;
-  padding-right: 1.875rem;
-  padding-bottom: 6.25rem;
-}
-
-/* Padding for Thank you page container*/
-.thankyou-container {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
   padding-bottom: 6.25rem;
@@ -258,18 +236,20 @@ div.col-12.col-lg-6 {
   text-align: center;
 }
 
-/* changing book titles to Merriweather font so they stand out from body text */
-.book-title {
-  font-size: 1.5rem;
+/* changing book titles & author to Merriweather font so they stand out from body text , aligning text to center*/
+.book-title,
+.book-author {
   font-family: 'Merriweather', serif;
   text-align: center;
 }
 
-/* changing book authors to Merriweather font so they stand out from body text */
+/* sizing book title font */
+.book-title {
+  font-size: 1.5rem;
+}
+/* sizing author font */
 .book-author {
   font-size: 1.25rem;
-  font-family: 'Merriweather', serif;
-  text-align: center;
 }
 
 /* justify the card text */
@@ -367,36 +347,31 @@ textarea {
 
 /* Changing the colour of the submit button when hovered over & adding a larger border */
 .btn-primary:hover,
-.btn-primary:not(:disabled):not(.disabled):active {
-  color: #000000;
-  background-color: #E9DBFA;
-  border: #d6b6ff 3px solid;
-}
-
-.btn:focus {
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn:focus,
+.btn-primary:focus {
   color: #000000;
   background-color: #E9DBFA;
   border: #d6b6ff 3px solid;
 }
 
 .btn-primary:focus {
-  color: #000000;
-  background-color: #E9DBFA;
-  border-color: #d6b6ff;
   box-shadow: 0 0 0 0.2rem rgb(214 182 255 / 50%);
 }
 
-/* THANK YOU PAGE*/
 /* added width to prevent the image overflowing on small devices */
-#HFB {
+#HFB ,
+#milkshake{
   width: 50%;
 }
 
 /*placing image central on page*/
-.dictator {
+.dictator,
+.error-img {
   text-align: center;
 }
 
+/* THANK YOU PAGE*/
 /* Changing the font family of the dog writing section */
 .dog-writing {
   font-family: 'Indie Flower', cursive;
@@ -421,16 +396,4 @@ textarea {
 footer i {
   color: #000;
   font-size: 1.25rem;
-}
-
-/*404 PAGE*/
-/*centering the image*/
-.error-img {
-  text-align: center;
-}
-
-/* reducing image to 50% width to prevent overflow on smaller screens & rounding image corners */
-#milkshake {
-  width: 50%;
-  border-radius: 5%;
 }

@@ -363,6 +363,9 @@ Suggestions:
 
 Final lighthouse testing:
 
+![Final Lighthouse Testing for Desktop Books Page](docs/testing/lighthouse/booksdesktop2.png)
+![Final Lighthouse Testing for Mobile Books Page](docs/testing/lighthouse/booksmobile2.png)
+
 #### Contact Us Page
 
 Initial lighthouse testing:

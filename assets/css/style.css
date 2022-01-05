@@ -208,9 +208,13 @@ p {
 /* Adding padding to the error container */
 .error-container {
   padding-top: 1.25rem;
-  padding-bottom: 6.25rem;
+  padding-bottom: 3.125rem;
 }
 
+.error-img-container {
+  padding-top: 1.25rem;
+  padding-bottom: 6.25rem;
+}
 /* adding padding to the layout of the cards on books page */
 div.col-12.col-lg-6 {
   padding-left: 1.875rem;
@@ -417,4 +421,17 @@ textarea {
 footer i {
   color: #000;
   font-size: 1.25rem;
+}
+
+/*404 PAGE*/
+/*centering the image*/
+.error-img {
+  text-align: center;
+  width: 50%;
+}
+
+/* reducing image to 50% width to prevent overflow on smaller screens & rounding image corners */
+#milkshake {
+  width: 50%;
+  border-radius: 5%;
 }

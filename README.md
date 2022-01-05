@@ -99,7 +99,7 @@ Due to a recent growth in membership and personal commitments, the owner of bull
 
 ### Colour Scheme
 
-![Bully Book Club Website Colour Palette](docs/colour-palette.png)
+![Bully Book Club Website Colour Palette](docs/colourpalette.png)
 
 The website uses a palette of pastel colours that are often used in the Bully Book Club logo images. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
@@ -270,7 +270,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 2. The cards on the books page were very long when on smaller devices, causing the user to scroll for a while before seeing the next book. By using a media query to hide the card body I am able to condense the card for a better viewing experience on smaller devices.
 
-3. Halfway down the books page on small devices the columns would jump from displaying one column to displating two colums. After trying several ways to change this with no effect, I posed the problem to the slack community. Simen Daehlin suggested that I specify on the column class what sizes I would use for the screen sizes. By adding these column size classes it has resolved the problem. ![Column Issue](docs/column-issue.gif)
+3. Halfway down the books page on small devices the columns would jump from displaying one column to displating two colums. After trying several ways to change this with no effect, I posed the problem to the slack community. Simen Daehlin suggested that I specify on the column class what sizes I would use for the screen sizes. By adding these column size classes it has resolved the problem. ![Column Issue](docs/columnissue.gif)
 
 4. The textarea required attribute wasn't activating when the form was submitted. After searching for an answer, I asked on slack and Dave Horrocks spotted that as I had a message in the textarea it was reading that as a message had been entered in the textarea. By adding the message into a placeholder the issue has been rectified.
 

@@ -471,6 +471,8 @@ Content for the website was written by the owner of Bully Book Club and Kera Cud
 
 * Illustration of Harrison Ford used on the thank you page - with kind permission from [Harrison Ford](https://www.instagram.com/harrisonfordbulldog/)
 
+* Image of Milkshake the Bulldog used on the 404 page used with kind permission from [Sir Meatball and Milkshake](https://www.instagram.com/sir.meatball/?hl=en)
+
 ### Acknowledgments
 
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:

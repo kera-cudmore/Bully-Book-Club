@@ -392,6 +392,9 @@ Suggestions:
   
 Final lighthouse testing:
 
+![Final Lighthouse Testing for Desktop Thank You Page](docs/testing/lighthouse/thankyoudesktop2.png)
+![Final Lighthouse Testing for Mobile Thank You Page](docs/testing/lighthouse/thankyoumobile2.png)
+
 #### 404 Page
 
 Lighthouse testing:

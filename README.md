@@ -423,6 +423,8 @@ Lighthouse testing:
 
 To fully test my website I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox) and devices (Macbook Pro 14 inch, iPhone 13 pro).
 
+I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+
 Links.
 
 1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
@@ -522,8 +524,8 @@ I would like to acknowledge the following people who helped me along the way in 
 
 * Yasmin Daly, Creator of Bully Book Club, for allowing me to create a website based on the book club.
 * [Adegbenga Adeye](https://github.com/deye9), my Code Institute Mentor.
-* [Abi Harrison](https://github.com/Abibubble) - For her webinar on meta tags.
-* [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue.
+* [Abi Harrison](https://github.com/Abibubble) - For her webinar on meta tags, and taking the time to respond to my peer code review request in slack.
+* [Simen Daehlin](https://github.com/Eventyret) - For his help with the columns issue, and for taking the time to respond to my peer code review request in slack.
 * [Dave Horrocks](https://github.com/daveyjh) - For his help with the textarea required issue & the return to top on books page.
 * [Anthony O'Brien](https://github.com/auxfuse) - For pointing out my missing join us container on the index page & helping me solve the issue of the thank you page overflow.
 * [Andrew Dempsey](https://github.com/andrewdempsey2018) - For taking the time to respond to my peer code review request in slack.

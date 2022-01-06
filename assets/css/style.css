@@ -183,14 +183,15 @@ p {
 .join-us,
 .card-container,
 .form-container,
-.thank-you-container, 
+.thank-you-container,
 .error-container,
 .error-img-container {
   padding-top: 1.25rem;
 }
 
 /* Adding bottom padding to containers */
-.about-us-container, .error-container {
+.about-us-container,
+.error-container {
   padding-bottom: 3.125rem;
 }
 
@@ -243,6 +244,7 @@ div.col-12.col-lg-6 {
 .book-title {
   font-size: 1.5rem;
 }
+
 /* sizing author font */
 .book-author {
   font-size: 1.25rem;
@@ -356,8 +358,8 @@ textarea {
 }
 
 /* added width to prevent the image overflowing on small devices */
-#HFB ,
-#milkshake{
+#HFB,
+#milkshake {
   width: 50%;
 }
 

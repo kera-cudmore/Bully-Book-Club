@@ -317,13 +317,14 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
   * I want to be able to navigate the site easily to find information.
   All site navigation is in the top navigation bar, which consistantly appears on all pages of the site. As you are able to scroll for a long time on the book page, a return to top has been added to make it easy for users to return to the navigation menu.
 
-  ![navigation menu](docs/testing/userstories/userstories2.png)
+  ![navigation menu for mobile devices](docs/testing/userstories/userstories2.png)
+  ![navigation menu for desktop](docs/testing/userstories/userstories4.png)
   ![return to top](docs/testing/userstories/userstories3.png)
 
   * I want to be able to find their Instagram profile.  
     The instagram icon and link for Bully Book Club is presented on each page in the footer. This opens a new browser window to instagram for a good user experience.
 
-    ![footer with instagram icon](docs/testing/userstories/userstories4.png)
+    ![footer with instagram icon](docs/testing/userstories/userstories10.png)
 
 * Returning Visitors
   * I want to find up to date information on what the book club is reading.

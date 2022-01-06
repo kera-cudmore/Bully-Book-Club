@@ -177,6 +177,7 @@ p {
 }
 
 /* Adding top padding to the containers */
+.home-container,
 .carousel-container,
 .about-us-container,
 .join-us,

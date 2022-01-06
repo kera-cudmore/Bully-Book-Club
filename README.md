@@ -24,7 +24,7 @@ The Bully Book Club website is designed to be responsive website allowing visito
   * [Imagery](#Imagery)
   * [Wireframes](#Wireframes)
   * [Features](#Features)
-  * Accessibility (#Accessibility)
+  * [Accessibility](#Accessibility)
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)

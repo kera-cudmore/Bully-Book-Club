@@ -173,20 +173,23 @@ p {
 .container-fluid {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
+  padding-bottom: 6.25rem;
 }
 
-/* Adding padding to the top and bottom of containers */
-.about-us-container, .error-container {
-  padding-top: 1.25rem;
-  padding-bottom: 3.125rem;
-}
-
-/* Adding padding to the container */
+/* Adding top padding to the containers */
+.about-us-container
+.join-us,
 .card-container,
 .form-container,
+.thank-you-container, 
+.error-container,
 .error-img-container {
   padding-top: 1.25rem;
-  padding-bottom: 6.25rem;
+}
+
+/* Adding bottom padding to containers */
+.about-us-container, .error-container {
+  padding-bottom: 3.125rem;
 }
 
 /* adding padding to the layout of the cards on books page */
@@ -194,15 +197,6 @@ div.col-12.col-lg-6 {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
   margin-bottom: 0.938rem;
-}
-
-/* adding padding the the join us section on home page and aligning the text */
-.join-us,
-.thank-you-container {
-  text-align: center;
-  padding-left: 1.875rem;
-  padding-right: 1.875rem;
-  padding-bottom: 6.25rem;
 }
 
 /* CAROUSEL */

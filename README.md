@@ -24,6 +24,7 @@ The Bully Book Club website is designed to be responsive website allowing visito
   * [Imagery](#Imagery)
   * [Wireframes](#Wireframes)
   * [Features](#Features)
+  * Accessibility (#Accessibility)
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
@@ -170,6 +171,16 @@ The website is comprised of four pages, three of which are accessible from the n
   * Use javascript and listeners to require at least one checkbox to be checked before submitting the form on contact us page.
   * A meet the members page - This would have a photo of the member together with a small bio. A link to their instagram and/or goodreads page.
   * Competitions/giveaways page - This page would give further information/rules on the competitions and giveaways the book club hosts.
+
+### Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Ensuring menus are accessible by marking the current page as current for screen readers.
 
 - - -
 
